@@ -20,3 +20,13 @@ html {
     display: flex;
     background-color: #E7DAD5;
 }
+
+.footer{
+    background-color: rgb(83, 24, 24);
+    height: 9rem;
+    width:100%;
+    display: flex;
+    position: absolute; 
+    bottom: 0; 
+    z-index: 10;
+}
