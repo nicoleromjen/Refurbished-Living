@@ -17,17 +17,17 @@ nav {
     background-color: #f9f9f9;
 }
 
-nav #header-ul{
+#header-ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav #header-ul li{
+#header-ul li{
     list-style-type: none;
 }
 
-nav #header-ul li a{
+#header-ul li a{
     text-decoration: none;
     color: black;
     list-style-type: none;
