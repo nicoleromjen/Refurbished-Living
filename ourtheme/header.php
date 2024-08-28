@@ -18,7 +18,7 @@
                     </a>
                 </div>
 
-                <div>
+                <div id='navigation' class='nav-bar'>
                 <?php 
     wp_nav_menu(
 array(
