@@ -82,7 +82,7 @@ nav #header-ul li a {
 }
 
 .blog-content {
-    display: inline-block;
+    flex-grow: 1;
     padding: 0;
     width: 33%;
 }
