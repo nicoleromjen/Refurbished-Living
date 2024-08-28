@@ -67,5 +67,15 @@ nav #header-ul li a{
 }
 
 
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+.blog-content {
+
+}
+
 
 
