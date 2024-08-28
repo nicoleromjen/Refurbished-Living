@@ -5,7 +5,7 @@ Author: Nicole
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -17,35 +17,35 @@ nav {
     background-color: #f9f9f9;
 }
 
-#header-ul{
+#header-ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#header-ul li{
+#header-ul li {
     list-style-type: none;
 }
 
-#header-ul li a{
+#header-ul li a {
     text-decoration: none;
     color: black;
     list-style-type: none;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     gap: 50px;
     align-items: center;
 
 }
 
-.nav-menu .nav-menu-list{
+.nav-menu .nav-menu-list {
     display: flex;
     gap: 25px;
 }
 
-.search-bar{
+.search-bar {
     background-color: #E7DAD5;
     width: 250px;
     height: fit-content;
@@ -56,26 +56,21 @@ nav {
     padding: 10px;
 }
 
-.search-bar a{
+.search-bar a {
     display: flex;
     align-items: center;
 }
 
-.search-bar #search-bar-input{
+.search-bar #search-bar-input {
     background-color: transparent;
     border: 0;
 }
 
 
 .blog-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
 }
 
-.blog-content {
-
-}
-
-
-
+.blog-content {}
