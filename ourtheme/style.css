@@ -74,9 +74,9 @@ nav #header-ul li a {
 
 .blog-container {
     display: inline-flex;
-    margin: 0;
+    margin: 10% auto;
     padding: 0;
-    width: 33%;
+    width: 100%;
     text-align: left;
     float: left;
 }
@@ -84,4 +84,5 @@ nav #header-ul li a {
 .blog-content {
     display: inline-block;
     padding: 0;
+    width: 33%;
 }
