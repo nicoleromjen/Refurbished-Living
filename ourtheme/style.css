@@ -29,8 +29,7 @@ nav #header-ul li {
 
 nav #header-ul li a {
     text-decoration: none;
-    color: #565656;
-    list-style-type: none;
+    color:#565656;
 }
 
 .nav-menu {
@@ -43,8 +42,14 @@ nav #header-ul li a {
 .nav-menu .nav-menu-list {
     display: flex;
     gap: 25px;
+    align-items: center;
 }
 
+.nav-menu .nav-bar ul {
+    display: flex; 
+    gap: 20px; 
+    list-style: none; 
+}
 .search-bar {
     background-color: #E7DAD5;
     width: 250px;
