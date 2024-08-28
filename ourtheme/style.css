@@ -3,3 +3,69 @@ Theme Name: Our theme
 Author: Nicole
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+nav {
+    padding: 20px 5%;
+    background-color: #f9f9f9;
+}
+
+nav #header-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #header-ul li{
+    list-style-type: none;
+}
+
+nav #header-ul li a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.nav-menu .nav-menu-list{
+    display: flex;
+    gap: 25px;
+}
+
+.search-bar{
+    background-color: #E7DAD5;
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.search-bar a{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar #search-bar-input{
+    background-color: transparent;
+    border: 0;
+}
+
+
+
+
