@@ -32,4 +32,20 @@
                 </div>
             </li>
         </ul>
+
+        <?php 
+    wp_nav_menu(
+array(
+'menu' => 'primary',
+'container' =>'',
+'theme_location' => 'primary',
+'items_wrap' => '<ul id="" 
+class="
+navbar-nav 
+me-auto 
+mb-2 
+mb-lg-0
+d-flex 
+">%3$s</ul>'
+));?>
     </nav>
