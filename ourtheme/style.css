@@ -17,17 +17,17 @@ nav {
     background-color: #f9f9f9;
 }
 
-#header-ul {
+nav #header-ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#header-ul li {
+nav #header-ul li {
     list-style-type: none;
 }
 
-#header-ul li a {
+nav #header-ul li a {
     text-decoration: none;
     color:#565656;
 }
@@ -74,8 +74,15 @@ nav {
 
 .blog-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
 }
 
 .blog-content {}
+
+
+@media (max-width: 992px) {
+    .blog-container {  grid-template-columns: auto;}
+}   
