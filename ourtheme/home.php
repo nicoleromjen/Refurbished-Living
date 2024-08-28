@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="blog-container">
-    <div class="blog-content">
+    <div class="card blog-content">
         <?php if (have_posts()): ?>
             <?php while (have_posts()):
                 the_post() ?>
@@ -13,11 +13,11 @@
                 $excerpt = get_the_excerpt();
                 ?>
 
-                <article>
-                    <h2><a href="<?php echo $url; ?>"><?php echo $title; ?></a></h2>
-                    <p><?php echo $date; ?> by <?php echo $author; ?></p>
-                    <p><?php echo $excerpt; ?></p>
-                </article>
+
+                <h2 class="card-title"><a href="<?php echo $url; ?>"><?php echo $title; ?></a></h2>
+                <p><?php echo $date; ?> by <?php echo $author; ?></p>
+                <p class="card-text"><?php echo $excerpt; ?></p>
+
             <?php endwhile; ?>
         <?php endif; ?>
     </div>
