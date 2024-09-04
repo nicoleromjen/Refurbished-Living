@@ -73,11 +73,12 @@ nav #header-ul li a {
 
 
  .blog-container {
-    margin: 10%;
+    margin: 18px 115px;
     background-color: #E7DAD5;
 }
 
 .blog-content {
     background-color: #FFFFFF;
+    margin: 25px;
 }
 
