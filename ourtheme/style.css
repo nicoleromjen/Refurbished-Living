@@ -111,7 +111,7 @@ nav #header-ul li a {
 
 /* Forside */
 
-.categories{
+.categories-subheader{
     display: grid;
     align-items: center;
     height: 60px;
@@ -124,5 +124,13 @@ nav #header-ul li a {
     justify-content: space-around;
     padding: 0 5%;
     margin: 0;
-    color: white
+}
+
+.category{
+    color: white;
+    text-decoration: none;
+}
+
+.category:hover{
+    color: lightgreen;
 }
