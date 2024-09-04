@@ -72,6 +72,8 @@ nav #header-ul li a {
     border: 0;
 }
 
+/* Blog */
+
 .blog-header {
     background-color: #CF755A;
 }
@@ -79,6 +81,8 @@ nav #header-ul li a {
 .blog-header h1 {
     font-size: 33px;
     font-weight: bold;
+    padding-left: 25px;
+    color: #FCFCFC;
 }
 
 .blog-background {
@@ -94,6 +98,7 @@ nav #header-ul li a {
     padding: 25px;
     background-color: #E7DAD5;
     justify-content: center;
+    border: solid 1px #707070;
  }
 
 .blog-content {
@@ -102,7 +107,7 @@ nav #header-ul li a {
     margin: 8px;
 }
 
-/* Blog */
+
 
 /* Forside */
 
@@ -120,5 +125,4 @@ nav #header-ul li a {
     padding: 0 5%;
     margin: 0;
     color: white
->>>>>>> Stashed changes
 }
