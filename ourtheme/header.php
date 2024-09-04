@@ -10,6 +10,7 @@
     <nav>
         <ul id="header-ul">
             <li><a href=""><h1>LOGO</h1></a></li>
+            <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
             <li class="nav-menu">
                 <div class="search-bar">
                     <input type="text" id="search-bar-input" value="<?php pll_e("Søg")?>">
