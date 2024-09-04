@@ -6,13 +6,6 @@
             <!-- <?php echo do_shortcode('[contact-form-7 id="cc310c7" title="Support form"]') ?> -->
             <div class="categories-subheader">
                 <ul class="categories-list">
-                    <!-- <li class="category">Outlet</li>
-                    <li class="category">Haven</li>
-                    <li class="category">Dagligstue</li>
-                    <li class="category">Spisestue</li>
-                    <li class="category">Soveværelse</li>
-                    <li class="category">Opbevaring</li>
-                    <li class="category">Kontor</li> -->
 
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
