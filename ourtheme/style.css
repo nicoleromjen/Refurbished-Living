@@ -75,6 +75,7 @@ nav #header-ul li a {
 
  .blog-container {
     margin: 18px 115px;
+    padding: 25px;
     background-color: #E7DAD5;
     display: flex;
     justify-content: space-between;
@@ -82,6 +83,6 @@ nav #header-ul li a {
 
 .blog-content {
     background-color: #FFFFFF;
-    margin: 25px;
+    margin: 15px;
 }
 
