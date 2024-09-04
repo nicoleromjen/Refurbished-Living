@@ -72,15 +72,17 @@ nav #header-ul li a {
 }
 
 
-/* .blog-container {
-    display: inline-flex;
+ .blog-container {
+    display: flex;
+    flex-direction: row;
     margin: 10% auto;
     padding: 0;
-    width: 100%;
     text-align: left;
-    float: left;
 }
 
 .blog-content {
-
+    display: flex; 
+    flex-direction: column;
+    width: 33%;
+    flex-grow: 1;
 }
