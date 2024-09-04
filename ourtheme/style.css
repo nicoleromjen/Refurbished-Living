@@ -78,7 +78,7 @@ nav #header-ul li a {
     padding: 25px;
     background-color: #E7DAD5;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .blog-content {
