@@ -1,10 +1,12 @@
 <?php get_header(); ?>
-<div class="blog-container">
-    <div class="row">
-        <div class="blog-content col-3">
-            <?php if (have_posts()): ?>
-                <?php while (have_posts()):
-                    the_post() ?>
+
+<?php if (have_posts()): ?>
+    <?php while (have_posts()):
+        the_post() ?>
+        <div class="blog-container">
+            <div class="row">
+                <div class="blog-content col-3">
+
 
                     <?php
                     $url = get_permalink();
@@ -18,10 +20,12 @@
                     <p><?php echo $date; ?> by <?php echo $author; ?></p>
                     <p><?php echo $excerpt; ?></p>
 
-                <?php endwhile; ?>
-            <?php endif; ?>
+
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+
+    <?php endwhile; ?>
+<?php endif; ?>
 
 <?php get_footer(); ?>
