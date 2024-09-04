@@ -71,6 +71,15 @@ nav #header-ul li a {
     border: 0;
 }
 
+.blog-header {
+    background-color: #CF755A;
+}
+
+.blog-header h1 {
+    font-size: 33px;
+    font-weight: bold;
+}
+
 .blog-background {
     background-color: #D8D8D8;
     z-index: -10;
@@ -85,7 +94,7 @@ nav #header-ul li a {
     background-color: #E7DAD5;
     justify-content: center;
  }
- 
+
 .blog-content {
     background-color: #FFFFFF;
     width: 31.81%;

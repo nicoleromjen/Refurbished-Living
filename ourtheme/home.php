@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<div class="blog-header">
+    <h1>Blog</h1>
+    
+</div>
 <div class="blog-background">
     <div class="blog-container row">
         <?php if (have_posts()): ?>
