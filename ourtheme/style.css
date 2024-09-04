@@ -83,8 +83,8 @@ nav #header-ul li a {
     margin: 18px 115px;
     padding: 25px;
     background-color: #E7DAD5;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
 }
 
 .blog-content {
