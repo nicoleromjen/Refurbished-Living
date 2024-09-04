@@ -1,11 +1,10 @@
 <?php get_header(); ?>
 
 
-<div class="blog-container">
+<div class="blog-container row">
     <?php if (have_posts()): ?>
         <?php while (have_posts()):
             the_post() ?>
-            <div class="row">
                 <div class="blog-content col-3">
 
 
@@ -23,7 +22,7 @@
 
 
                 </div>
-            </div>
+        
         <?php endwhile; ?>
     <?php endif; ?>
 </div>
