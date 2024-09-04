@@ -19,16 +19,18 @@
                 </div>
 
                 <div id='navigation' class='nav-bar'>
+
                 <?php 
-    wp_nav_menu(
-array(
-'menu' => 'primary',
-'container' =>'',
-'theme_location' => 'primary',
-'items_wrap' => '<ul id="" 
-class="
-">%3$s</ul>'
-));?>
+                wp_nav_menu(
+                    array(
+                    'menu' => 'primary',
+                    'container' =>'',
+                    'theme_location' => 'primary',
+                    'items_wrap' => '<ul id="" class="">%3$s</ul>'
+                    )
+                );
+                ?>
+
                 </div>
 
                 <div class="shopping-cart">
