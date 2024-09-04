@@ -3,7 +3,7 @@
 <?php if (have_posts()): ?>
     <?php while (have_posts()):
         the_post() ?>
-        <div class="blog-container">
+        <div class="container">
             <div class="row">
                 <div class="blog-content col-3">
 
