@@ -72,7 +72,6 @@ nav #header-ul li a {
     border: 0;
 }
 
-<<<<<<< Updated upstream
 .blog-header {
     background-color: #CF755A;
 }
@@ -89,11 +88,6 @@ nav #header-ul li a {
     padding: 0;
     margin: 0;
 }
-=======
-/* Header */
-
-/* Blog */
->>>>>>> Stashed changes
 
  .blog-container {
     margin: 18px 115px;
@@ -104,11 +98,8 @@ nav #header-ul li a {
 
 .blog-content {
     background-color: #FFFFFF;
-<<<<<<< Updated upstream
     width: 31.81%;
     margin: 8px;
-=======
-    margin: 15px;
 }
 
 /* Blog */
