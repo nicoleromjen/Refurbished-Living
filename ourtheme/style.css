@@ -73,18 +73,11 @@ nav #header-ul li a {
 
 
  .blog-container {
-    display: flex;
-    flex-direction: row;
     margin: 10%;
-    padding: 0;
-    text-align: left;
     background-color: #E7DAD5;
 }
 
 .blog-content {
-    display: flex; 
-    flex-direction: column;
-    width: 33%;
-    flex-grow: 1;
+    background-color: #FFFFFF;
 }
 
