@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-
-<div class="blog-container row">
-    <?php if (have_posts()): ?>
-        <?php while (have_posts()):
-            the_post() ?>
+<div class="blog-background">
+    <div class="blog-container row">
+        <?php if (have_posts()): ?>
+            <?php while (have_posts()):
+                the_post() ?>
                 <div class="blog-content col-3">
 
 
@@ -22,9 +22,10 @@
 
 
                 </div>
-        
-        <?php endwhile; ?>
-    <?php endif; ?>
+
+            <?php endwhile; ?>
+        <?php endif; ?>
+    </div>
 </div>
 
 
