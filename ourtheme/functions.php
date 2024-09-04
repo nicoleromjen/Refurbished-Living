@@ -7,15 +7,20 @@ function refurbished_register_stylesheet() {
 add_action("wp_enqueue_scripts", "refurbished_register_stylesheet");
 
 
-    add_theme_support( 'menus' );
+add_theme_support( 'menus' );
 
-    add_action( 'init', 'register_my_menus' );
+add_action( 'init', 'register_my_menus' );
 
-    function register_my_menus() {
-        register_nav_menus(
-            array(
-                'primary-menu' => __( 'Primary Menu' ),
-                'secondary-menu' => __( 'Secondary Menu' )
-            )
-        );
-    }
+function register_my_menus() {
+    register_nav_menus(
+        array(
+            'primary-menu' => __( 'Primary Menu' ),
+            'secondary-menu' => __( 'Secondary Menu' )
+        )
+    );
+}
+
+function webshop_disable_gutenberg() {
+    remove_post_type_support("page", "editor");
+}
+add_action("init", "webshop_disable_gutenberg");
