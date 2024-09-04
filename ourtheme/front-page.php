@@ -10,7 +10,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Outlet
+                            <?php dll_e("List-1.1") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -24,7 +24,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Haven
+                        <?php dll_e("List-1.2") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -38,7 +38,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Dagligstue
+                        <?php dll_e("List-1.3") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -52,7 +52,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Spisestue
+                        <?php dll_e("List-1.4") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>

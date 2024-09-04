@@ -24,3 +24,12 @@ function webshop_disable_gutenberg() {
     remove_post_type_support("page", "editor");
 }
 add_action("init", "webshop_disable_gutenberg");
+
+function webshop_register_strings() {
+    pll_register_string("Refurbished Living", "Blog");
+    pll_register_string("Refurbished Living", "Søg");
+    pll_register_string("Refurbished Living", "List-1.1");
+    pll_register_string("Refurbished Living", "List-1.2");
+    pll_register_string("Refurbished Living", "List-1.3");
+    pll_register_string("Refurbished Living", "List-1.4");
+}
