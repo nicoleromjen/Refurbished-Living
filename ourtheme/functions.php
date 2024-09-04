@@ -33,3 +33,5 @@ function webshop_register_strings() {
     pll_register_string("Refurbished Living", "List-1.3");
     pll_register_string("Refurbished Living", "List-1.4");
 }
+
+add_action("init", "webshop_register_strings");
