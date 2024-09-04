@@ -81,7 +81,7 @@ nav #header-ul li a {
 .blog-header h1 {
     font-size: 33px;
     font-weight: bold;
-    padding-left: 8px 115px;
+    margin: 8px 115px;
     color: #FCFCFC;
 }
 
