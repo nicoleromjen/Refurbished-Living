@@ -21,7 +21,8 @@
 
 
                     </div>
-                    <div class="blog-content col-3">
+
+                    <div class="blog-content row-3">
 
 
                         <?php
