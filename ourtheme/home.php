@@ -3,7 +3,7 @@
 
 <div class="blog-background">
 <div class="blog-header">
-    <h1><?php dll_e("Blog")?></h1>
+    <h1><?php pll_e("Blog")?></h1>
 </div>
 
     <div class="blog-container row">

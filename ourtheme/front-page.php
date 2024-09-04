@@ -10,7 +10,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            <?php dll_e("List-1.1") ?>
+                            <?php pll_e("List-1.1") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -24,7 +24,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                        <?php dll_e("List-1.2") ?>
+                        <?php pll_e("List-1.2") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -38,7 +38,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                        <?php dll_e("List-1.3") ?>
+                        <?php pll_e("List-1.3") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -52,7 +52,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                        <?php dll_e("List-1.4") ?>
+                        <?php pll_e("List-1.4") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -66,7 +66,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Soveværelse
+                        <?php pll_e("List-1.5") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -80,7 +80,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Opbevaring
+                        <?php pll_e("List-1.6") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -94,7 +94,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Kontor
+                        <?php pll_e("List-1.7") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
@@ -108,7 +108,7 @@
                     <li class="dropdown-category">
                       <div class="properties-dropdown">
                         <a class="category" role="button" data-bs-toggle="dropdown">
-                            Belysning
+                        <?php pll_e("List-1.8") ?>
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>

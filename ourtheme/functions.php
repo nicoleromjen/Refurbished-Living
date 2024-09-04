@@ -25,6 +25,7 @@ function webshop_disable_gutenberg() {
 }
 add_action("init", "webshop_disable_gutenberg");
 
+
 function webshop_register_strings() {
     pll_register_string("Refurbished Living", "Blog");
     pll_register_string("Refurbished Living", "Søg");
@@ -34,4 +35,4 @@ function webshop_register_strings() {
     pll_register_string("Refurbished Living", "List-1.4");
 }
 
-add_action("init", "webshop_register_strings");
+add_action("init", "webshop_register_strings"); 
