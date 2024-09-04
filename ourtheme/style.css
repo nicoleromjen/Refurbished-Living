@@ -134,3 +134,59 @@ nav #header-ul li a {
 .category:hover{
     color: lightgreen;
 }
+
+/* Hero grid */
+
+.hero-grid{
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: aqua;
+    height: 750px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.image1{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.image2{
+    background-color: yellow;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.image3{
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.image4{
+    background-color: orange;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+
+.image5{
+    background-color: purple;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+

@@ -121,6 +121,14 @@
 
                 </ul>
             </div>
+
+            <div class="hero-grid">
+                <div class="image1" id="hero-image"></div>
+                <div class="image2" id="hero-image"></div>
+                <div class="image3" id="hero-image"></div>
+                <div class="image4" id="hero-image"></div>
+                <div class="image5" id="hero-image"></div>
+            </div>
         </div>
         
         <?php endwhile; ?>
