@@ -326,5 +326,24 @@ nav #header-ul li a {
 .nyhedsbrev {
     display: flex;
     margin-top: 20px;
+    gap: 10px;
     flex-direction: column;
+}
+
+.nyhedsbrev input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.nyhedsbrev button{
+    padding: 10px;
+    background-color: #E7DAD5;
+    border: none;
+    border-radius: 5px;
+}
+
+.nyhedsbrev button:hover{
+    background-color: #CF755A;
+    color: white;
 }
