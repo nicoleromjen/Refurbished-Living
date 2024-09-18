@@ -324,6 +324,12 @@ nav #header-ul li a {
     flex-direction: column;
 }
 
+.some-logos svg {
+    width: 20px;
+    height: 20px;
+
+}
+
 .nyhedsbrev {
     display: flex;
     margin-top: 30px;
