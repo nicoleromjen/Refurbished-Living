@@ -215,9 +215,9 @@ nav #header-ul li a {
 }
 
 .product-card{
-    background-color: #e0e0e0;
+    background-color: #ebebeb;
+    box-shadow: 10px 10px 75px #c4c4c4;
     border-radius: 25px;
-
 }
 
 .product-image > img{
@@ -235,10 +235,17 @@ nav #header-ul li a {
     background-color: rgb(50, 132, 255);
     color: white;
     transform: all ease 0.3s;
+    padding: 10px 0;
+    font-weight: 600;
 }
 
 .product-text > button:hover{
     scale: 1.05;
+}
+.price-text{
+    color: rgb(50, 132, 255);
+    font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .crossed-text{
