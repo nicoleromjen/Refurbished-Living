@@ -311,6 +311,7 @@ nav #header-ul li a {
 
 .footer-container a {
     text-decoration: none;
+    color: black;
 }
 
 .footer-container a:hover{
