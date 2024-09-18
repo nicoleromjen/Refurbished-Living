@@ -118,6 +118,11 @@ nav #header-ul li a {
 
 /* Forside */
 
+.frontpage-container{
+    display: flex;
+    justify-content: center;
+}
+
 .categories-subheader{
     display: grid;
     align-items: center;
@@ -215,22 +220,22 @@ nav #header-ul li a {
 }
   
 .first-section-container a:hover {
-background-color: #ddd;
-color: black;
+    background-color: #ddd;
+    color: black;
 }
   
 .previous {
-background-color: #f1f1f1;
-color: black;
+    background-color: #f1f1f1;
+    color: black;
 }
 
 .next {
-background-color: #04AA6D;
-color: white;
+    background-color: #04AA6D;
+    color: white;
 }
 
 .round {
-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .first-section-title{
