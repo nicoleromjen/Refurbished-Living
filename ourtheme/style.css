@@ -208,7 +208,7 @@ nav #header-ul li a {
 .first-section-container{
     padding: 0 0 50px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
 }
