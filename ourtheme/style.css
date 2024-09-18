@@ -200,15 +200,26 @@ nav #header-ul li a {
 /* Popular Producter */
 
 .first-section-container{
-    padding: 0 5%;
+    padding: 0 5% 50px 5%;
+    display: grid;
 }
 
 .first-section-title{
-    margin: 0 auto;
+    margin: 0 auto 25px auto;
 }
 
 .popular-products{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.product-card{
+    background-color: #e0e0e0;
+    border-radius: 25px;
+
+}
+
+.product-text{
+    background-color: #e0e0e0;
 }

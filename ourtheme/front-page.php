@@ -141,7 +141,7 @@
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
-                    <p>Pris: DKK 1.999</p>
+                    <p><strong>Pris:</strong> DKK 1.999</p>
                     <p>Tidligere pris: DKK 2.799</p>
                     <button>Se produkt</button>
                   </div>
@@ -155,7 +155,7 @@
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
-                    <p>Pris: DKK 1.999</p>
+                    <p><strong>Pris:</strong> DKK 1.999</p>
                     <p>Tidligere pris: DKK 2.799</p>
                     <button>Se produkt</button>
                   </div>
@@ -167,7 +167,7 @@
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
-                    <p>Pris: DKK 1.999</p>
+                    <p><strong>Pris:</strong> DKK 1.999</p>
                     <p>Tidligere pris: DKK 2.799</p>
                     <button>Se produkt</button>
                   </div>
@@ -179,7 +179,7 @@
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
-                    <p>Pris: DKK 1.999</p>
+                    <p><strong>Pris:</strong> DKK 1.999</p>
                     <p>Tidligere pris: DKK 2.799</p>
                     <button>Se produkt</button>
                   </div>
