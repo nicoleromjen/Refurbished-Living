@@ -130,13 +130,13 @@
                 <div class="image5" id="hero-image"></div>
             </div>
 
+            <h1 class="first-section-title">Populære Produkter</h1>
             <div class="first-section-container">
 
               <a href="#" class="previous round">&#8249;</a>
 
               <div class="popular-products">
 
-                <h1 class="first-section-title">Populære Produkter</h1>
 
                 <div class="product-card">
                   <div class="product-image">

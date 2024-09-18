@@ -203,12 +203,15 @@ nav #header-ul li a {
     padding: 0 5% 50px 5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .first-section-container a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
+    width: 35px;
+    height: 35px;
 }
   
 .first-section-container a:hover {
