@@ -354,9 +354,7 @@ nav #header-ul li a {
 }
 
 .nyhedsbrev input:focus{
-    background-color: #CF755A;
-    color: white;
-    border: 1px solid #E7DAD5;
+    border: none;
     filter: drop-shadow(0 0 10px #E7DAD5);
 }
 
