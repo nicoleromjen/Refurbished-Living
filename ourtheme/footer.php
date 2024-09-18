@@ -24,7 +24,7 @@
             <a href="">TT</a>
         </div>
         <div class="nyhedsbrev">
-            <h3>Tilmeld dig vores nyhedsbrev</h3>
+            <h4>Tilmeld dig vores nyhedsbrev</h4>
             <input type="text" placeholder="Indtast e-mail her">
             <button>Tilmeld</button>
 
