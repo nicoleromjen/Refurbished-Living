@@ -210,11 +210,13 @@ nav #header-ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .first-section-container a {
     text-decoration: none;
     display: inline-block;
+    text-align: center;
     padding: 8px 16px;
     width: 35px;
     height: 35px;
@@ -245,7 +247,7 @@ nav #header-ul li a {
 
 .popular-products{
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
     align-items: center;
 }
 
