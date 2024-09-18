@@ -220,6 +220,10 @@ nav #header-ul li a {
 
 }
 
+.product-image > image{
+    border-radius: 25px;
+}
+
 .product-text{
     display: flex;
     flex-direction: column;
@@ -233,7 +237,7 @@ nav #header-ul li a {
 }
 
 .product-text > button:hover{
-    scale: 1.2;
+    scale: 1.05;
 }
 
 .crossed-text{
