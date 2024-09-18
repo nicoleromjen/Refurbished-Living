@@ -303,4 +303,10 @@ nav #header-ul li a {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
-}   
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
