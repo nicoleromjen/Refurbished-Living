@@ -263,7 +263,7 @@
                       </div>
                     </div>
 
-                    Custom post type for the products 
+                    <!-- Custom post type for the products  -->
 
                     <div class="product-card">
                       <div class="product-image">
