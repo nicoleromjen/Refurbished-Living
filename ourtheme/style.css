@@ -220,8 +220,8 @@ nav #header-ul li a {
 
 }
 
-.product-image > image{
-    border-radius: 25px;
+.product-image > img{
+    border-radius: 25px 25px 0 0;
 }
 
 .product-text{
@@ -234,6 +234,7 @@ nav #header-ul li a {
 .product-text > button{
     background-color: rgb(50, 132, 255);
     color: white;
+    transform: all ease 0.3s;
 }
 
 .product-text > button:hover{
