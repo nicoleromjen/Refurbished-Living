@@ -351,6 +351,7 @@ nav #header-ul li a {
     border-radius: 25px;
     border: none;
     background-color: #E7DAD5;
+    height: 20px;
 }
 
 .nyhedsbrev button{
@@ -359,6 +360,7 @@ nav #header-ul li a {
     border: none;
     border-radius: 25px;
     transition: 0.2s;
+    height: 20px;
 }
 
 .nyhedsbrev button:hover{
