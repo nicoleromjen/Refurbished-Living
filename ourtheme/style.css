@@ -354,13 +354,19 @@ nav #header-ul li a {
     height: 20px;
 }
 
+.nyhedsbrev input:active{
+    background-color: #CF755A;
+    color: white;
+    border: 1px solid #E7DAD5;
+    filter: drop-shadow(0 0 10px #E7DAD5);
+}
+
 .nyhedsbrev button{
     padding: 10px;
     background-color: #E7DAD5;
     border: none;
     border-radius: 25px;
     transition: 0.2s;
-    height: 20px;
 }
 
 .nyhedsbrev button:hover{
