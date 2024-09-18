@@ -354,7 +354,7 @@ nav #header-ul li a {
     height: 20px;
 }
 
-.nyhedsbrev input:active{
+.nyhedsbrev input:focus{
     background-color: #CF755A;
     color: white;
     border: 1px solid #E7DAD5;
