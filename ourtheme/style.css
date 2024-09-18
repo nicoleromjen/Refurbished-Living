@@ -308,5 +308,5 @@ nav #header-ul li a {
 .footer-row {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
