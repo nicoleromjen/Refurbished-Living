@@ -221,5 +221,21 @@ nav #header-ul li a {
 }
 
 .product-text{
-    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.product-text > button{
+    background-color: rgb(50, 132, 255);
+    color: white;
+}
+
+.product-text > button:hover{
+    scale: 1.2;
+}
+
+.crossed-text{
+    text-decoration: line-through;
 }
