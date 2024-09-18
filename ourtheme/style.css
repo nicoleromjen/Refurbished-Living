@@ -305,17 +305,21 @@ nav #header-ul li a {
     padding: 50px 0;
 }
 
+.footer-container h4{
+    color: white;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+
+.footer-container a:hover{
+    color: white;
+}
+
 .footer-row {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.footer-container a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-container a:hover{
-    color: lightgreen;
-}
