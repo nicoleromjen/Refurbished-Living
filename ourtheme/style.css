@@ -306,17 +306,17 @@ nav #header-ul li a {
 }
 
 .footer-container h4{
-    color: #E7DAD5;
+    color: white;
 }
 
 .footer-container a {
     text-decoration: none;
     color: black;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .footer-container a:hover{
-    color: #E7DAD5;
+    color: white;
 }
 
 .footer-row {
