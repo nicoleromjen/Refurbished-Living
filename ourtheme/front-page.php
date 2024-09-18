@@ -129,6 +129,66 @@
                 <div class="image4" id="hero-image"></div>
                 <div class="image5" id="hero-image"></div>
             </div>
+
+            <div class="first-section-container">
+              <h1>Populære Produkter</h1>
+
+              <div class="popular-products">
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="img/produkt-1.jpg" alt="">
+                  </div>
+                  <div class="product-text">
+                    <h3>Product Name</h3>
+                    <p>Pris: DKK 1.999</p>
+                    <p>Tidligere pris: DKK 2.799</p>
+                    <button>Se produkt</button>
+                  </div>
+                </div>
+
+                <!-- Custom post type for the products -->
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="img/produkt-2.jpg" alt="">
+                  </div>
+                  <div class="product-text">
+                    <h3>Product Name</h3>
+                    <p>Pris: DKK 1.999</p>
+                    <p>Tidligere pris: DKK 2.799</p>
+                    <button>Se produkt</button>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="img/produkt-3.jpg" alt="">
+                  </div>
+                  <div class="product-text">
+                    <h3>Product Name</h3>
+                    <p>Pris: DKK 1.999</p>
+                    <p>Tidligere pris: DKK 2.799</p>
+                    <button>Se produkt</button>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="img/produkt-4.jpg" alt="">
+                  </div>
+                  <div class="product-text">
+                    <h3>Product Name</h3>
+                    <p>Pris: DKK 1.999</p>
+                    <p>Tidligere pris: DKK 2.799</p>
+                    <button>Se produkt</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+
         </div>
         
         <?php endwhile; ?>
