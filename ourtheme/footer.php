@@ -18,7 +18,7 @@
         <div class="some-logos">
             <h4>Find os på</h4>
             <a href="" class="instagram">
-                <svg width="800px" height="800px" viewBox="0 0 20 20">
+                <svg width="800px" height="800px" viewBox="0 0 24 24">
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" fill="#000000">
                         <g id="icons" transform="translate(56.000000, 160.000000)">
