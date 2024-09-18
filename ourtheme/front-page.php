@@ -131,7 +131,7 @@
             </div>
 
             <div class="first-section-container">
-              <h1>Populære Produkter</h1>
+              <h1 class="first-section-title">Populære Produkter</h1>
 
               <div class="popular-products">
 

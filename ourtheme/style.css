@@ -199,6 +199,14 @@ nav #header-ul li a {
 
 /* Popular Producter */
 
+.first-section-container{
+    padding: 0 5%;
+    display: grid;
+    justify-content: center;
+}
+
+.first-section-title
+
 .popular-products{
     display: flex;
     justify-content: space-around;
