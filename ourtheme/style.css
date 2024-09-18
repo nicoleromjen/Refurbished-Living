@@ -351,10 +351,11 @@ nav #header-ul li a {
     border-radius: 25px;
     border: none;
     background-color: #E7DAD5;
+    transition: 0.2s;
 }
 
 .nyhedsbrev input:focus{
-    border: none;
+    outline: none;
     filter: drop-shadow(0 0 10px #E7DAD5);
 }
 
