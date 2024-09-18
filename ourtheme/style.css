@@ -333,8 +333,12 @@ nav #header-ul li a {
     opacity: 70%;
 }
 
-.some-logos .svgs:hover {
+.svgs .instagram:hover {
     opacity: 100%;
+    color: #CF755A;
+    border: 1px solid #E7DAD5;
+    filter: drop-shadow(0 0 5px #E7DAD5);
+    background-color: #E7DAD5;
 }
 
 .some-logos svg {
