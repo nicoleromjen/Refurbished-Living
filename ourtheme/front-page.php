@@ -137,7 +137,7 @@
 
                 <div class="product-card">
                   <div class="product-image">
-                    <img src="img/produkt-1.jpg" alt="">
+                    <img src="<?php get_template_directory_uri(); ?>img/produkt-1.jpg" alt="">
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
