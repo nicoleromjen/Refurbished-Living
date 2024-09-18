@@ -69,6 +69,10 @@ nav #header-ul li a {
     padding: 10px;
 }
 
+.search-bar > a{
+    color: black;
+}
+
 .search-bar a {
     display: flex;
     align-items: center;
@@ -206,9 +210,9 @@ nav #header-ul li a {
 /* Popular Producter */
 
 .first-section-container{
-    padding: 0 0 50px 0;
+    padding: 0 5% 50px 5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
