@@ -217,9 +217,9 @@ nav #header-ul li a {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    padding: 8px 16px;
-    width: 35px;
-    height: 35px;
+    padding: 8px 8px;
+    width: 50px;
+    height: 50px;
 }
   
 .first-section-container a:hover {
