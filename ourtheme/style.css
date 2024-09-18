@@ -326,4 +326,5 @@ nav #header-ul li a {
 .nyhedsbrev {
     display: flex;
     gap: 10px;
+    flex-direction: column;
 }
