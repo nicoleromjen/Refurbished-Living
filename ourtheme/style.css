@@ -332,7 +332,7 @@ nav #header-ul li a {
 
 .nyhedsbrev input{
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
 }
 
@@ -340,10 +340,11 @@ nav #header-ul li a {
     padding: 10px;
     background-color: #E7DAD5;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .nyhedsbrev button:hover{
     background-color: #CF755A;
     color: white;
+    filter: drop-shadow(5px 5px 10px #000000);
 }
