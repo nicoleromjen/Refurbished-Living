@@ -201,11 +201,11 @@ nav #header-ul li a {
 
 .first-section-container{
     padding: 0 5%;
-    display: grid;
-    justify-content: center;
 }
 
-.first-section-title
+.first-section-title{
+    margin: 0 auto;
+}
 
 .popular-products{
     display: flex;
