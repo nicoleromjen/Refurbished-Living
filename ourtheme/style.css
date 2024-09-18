@@ -197,3 +197,10 @@ nav #header-ul li a {
     grid-row-end: 7;
 }
 
+/* Popular Producter */
+
+.popular-products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
