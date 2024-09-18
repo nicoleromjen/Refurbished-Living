@@ -330,6 +330,7 @@ nav #header-ul li a {
     flex-direction: row;
     place-items: center;
     color: black;
+    opacity: 70%;
 }
 
 .some-logos svg {
