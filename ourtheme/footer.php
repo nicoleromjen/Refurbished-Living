@@ -1,14 +1,14 @@
 <?php wp_footer() ?>
 <footer class= 'footer-container'>
     <div class="footer-row browse" >
-        <h3>Browsing</h3>
+        <h4>Browsing</h4>
         <a href="">Produkter</a>
         <a href="">Læs vores blog</a>
         <a href="">Doner møbel</a>
         <a href="">Blog</a>
     </div>
     <div class="footer-row info" >
-        <h3>Om ikea</h3>
+        <h4>Om ikea</h4>
         <a href="">Om os</a>
         <a href="">Kundeservice</a>
         <a href="">Kontakt os</a>
@@ -17,7 +17,7 @@
     </div>
     <div class="footer-row some">
         <div class="some-logos">
-            <h3>Find os på</h3>
+            <h4>Find os på</h4>
             <a href="">Ins</a>
             <a href="">FB</a>
             <a href="">LI</a>
