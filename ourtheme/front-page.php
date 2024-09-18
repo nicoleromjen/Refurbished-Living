@@ -151,7 +151,7 @@
 
                 <div class="product-card">
                   <div class="product-image">
-                    <img src="img/produkt-2.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-2.jpg" alt="">
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
@@ -163,7 +163,7 @@
 
                 <div class="product-card">
                   <div class="product-image">
-                    <img src="img/produkt-3.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-3.jpg" alt="">
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
@@ -175,7 +175,7 @@
 
                 <div class="product-card">
                   <div class="product-image">
-                    <img src="img/produkt-4.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-4.jpg" alt="">
                   </div>
                   <div class="product-text">
                     <h3>Product Name</h3>
