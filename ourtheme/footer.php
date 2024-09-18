@@ -3,12 +3,11 @@
     <div class="footer-row browse" >
         <h4>Browsing</h4>
         <a href="">Produkter</a>
-        <a href="">Læs vores blog</a>
-        <a href="">Doner møbel</a>
         <a href="">Blog</a>
+        <a href="">Doner møbel</a>
     </div>
     <div class="footer-row info" >
-        <h4>Om ikea</h4>
+        <h4>Om Refurbished Living</h4>
         <a href="">Om os</a>
         <a href="">Kundeservice</a>
         <a href="">Kontakt os</a>

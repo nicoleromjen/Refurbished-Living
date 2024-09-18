@@ -323,3 +323,7 @@ nav #header-ul li a {
     flex-direction: column;
 }
 
+.nyhedsbrev {
+    display: flex;
+    gap: 10px;
+}
