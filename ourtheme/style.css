@@ -121,6 +121,7 @@ nav #header-ul li a {
 .frontpage-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .categories-subheader{
