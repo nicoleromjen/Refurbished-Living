@@ -293,3 +293,20 @@ nav #header-ul li a {
 .crossed-text{
     text-decoration: line-through;
 }
+
+
+
+/* Footer design */
+
+.footer-container{
+    background-color: #CF755A;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
