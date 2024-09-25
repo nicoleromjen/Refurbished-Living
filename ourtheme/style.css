@@ -215,6 +215,7 @@ nav #header-ul li a {
 
 
 #hero-image > h2{
+    font-weight: bold;
     justify-content: center;
     align-items: center;
 }
