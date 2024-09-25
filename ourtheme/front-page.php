@@ -2,6 +2,8 @@
     <?php if(have_posts()): ?>
         <?php while(have_posts()): the_post() ?>
 
+        <main>
+
         <div class="frontpage-container">
             <!-- <?php echo do_shortcode('[contact-form-7 id="cc310c7" title="Support form"]') ?> -->
 
@@ -202,6 +204,7 @@
             </div>
         </div>
         
+        </main>
         <?php endwhile; ?>
     <?php endif; ?>
 <?php get_footer() ?>
