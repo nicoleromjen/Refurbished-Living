@@ -41,6 +41,121 @@
                 </div>
             </li>
         </ul>
+        <div class="categories-subheader">
+            <ul class="categories-list">
 
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                        <?php pll_e("List-1.1") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
 
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                    <?php pll_e("List-1.2") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                    <?php pll_e("List-1.3") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                    <?php pll_e("List-1.4") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                    <?php pll_e("List-1.5") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                    <?php pll_e("List-1.6") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                    <?php pll_e("List-1.7") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-category">
+                    <div class="properties-dropdown">
+                    <a class="category" role="button" data-bs-toggle="dropdown">
+                    <?php pll_e("List-1.8") ?>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                    </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
     </nav>
