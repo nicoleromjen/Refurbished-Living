@@ -21,7 +21,7 @@ Author: Nicole
 }
 
 nav {
-    padding: 20px 5%;
+    padding: 20px 0;
     background-color: #f9f9f9;
 }
 
@@ -29,6 +29,7 @@ nav #header-ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5%;
 }
 
 nav #header-ul li {
@@ -83,6 +84,30 @@ nav #header-ul li a {
     border: 0;
 }
 
+.categories-subheader{
+    display: grid;
+    align-items: center;
+    height: 60px;
+    background-color: #CF755A;
+}
+
+.categories-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0 5%;
+    margin: 0;
+}
+
+.category{
+    color: white;
+    text-decoration: none;
+}
+
+.category:hover{
+    color: lightgreen;
+}
+
 /* Blog */
 
 .blog-header {
@@ -126,30 +151,6 @@ nav #header-ul li a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.categories-subheader{
-    display: grid;
-    align-items: center;
-    height: 60px;
-    background-color: #CF755A;
-}
-
-.categories-list{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    padding: 0 5%;
-    margin: 0;
-}
-
-.category{
-    color: white;
-    text-decoration: none;
-}
-
-.category:hover{
-    color: lightgreen;
 }
 
 /* Hero grid */
