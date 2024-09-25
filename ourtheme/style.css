@@ -208,7 +208,7 @@ nav #header-ul li a {
     grid-row-end: 7;
 }
 
-.sofa-grid{
+#hero-image > img{
     height: 100%;
 }
 
