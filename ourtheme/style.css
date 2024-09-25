@@ -175,6 +175,10 @@ nav #header-ul li a {
     grid-row-end: 4;
 }
 
+.sofa-grid{
+    width: 100%;
+}
+
 .image2{
     background-color: yellow;
     grid-column-start: 3;
