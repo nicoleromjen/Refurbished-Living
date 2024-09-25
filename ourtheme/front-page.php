@@ -6,11 +6,11 @@
             <!-- <?php echo do_shortcode('[contact-form-7 id="cc310c7" title="Support form"]') ?> -->
 
             <div class="hero-grid">
-                <div class="image1" id="hero-image"><img class="sofa-grid" src="<?php echo get_template_directory_uri(); ?>/img/sofa-grid.jpeg" alt=""></div>
+                <div class="image1" id="hero-image"></div>
                 <div class="image2" id="hero-image"></div>
                 <div class="image3" id="hero-image"></div>
                 <div class="image4" id="hero-image"></div>
-                <div class="image5" id="hero-image"></div>
+                <div class="image5" id="hero-image"><img class="sofa-grid" src="<?php echo get_template_directory_uri(); ?>/img/sofa-grid.jpeg" alt=""></div>
             </div>
 
             <h1 class="first-section-title">Populære Møbler</h1>
