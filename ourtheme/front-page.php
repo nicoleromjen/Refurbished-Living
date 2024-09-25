@@ -8,7 +8,7 @@
             <div class="hero-grid">
                 <div class="image1" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/used-furniture.jpeg" alt=""></div>
                 <div class="image2" id="hero-image"><h2>Spar op til <br> 50%</h2></div>
-                <div class="image3" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/sofa-grid.jpeg" alt=""></div>
+                <div class="image3" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/bed-grid.jpeg" alt=""></div>
                 <div class="image4" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/eco-friendly.jpeg" alt=""></div>
                 <div class="image5" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/sofa-grid.jpeg" alt=""></div>
             </div>
