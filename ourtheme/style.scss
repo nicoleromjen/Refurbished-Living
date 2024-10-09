@@ -1,0 +1,375 @@
+/*
+Theme Name: Our theme
+Author: Nicole
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Header */
+
+.pll-switcher-select {
+    background: none;
+    border: none;
+    color:#565656;
+}
+
+nav {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    #header-ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+        li {
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color:#565656;
+            }
+        }
+        .nav-menu {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            .nav-menu-list {
+                display: flex;
+                gap: 25px;
+                align-items: center;
+            }
+            .nav-bar ul {
+                display: flex; 
+                gap: 20px; 
+                list-style: none; 
+            }
+        }
+        .search-bar {
+            background-color: #E7DAD5;
+            width: 250px;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 25px;
+            padding: 10px;
+            a{
+                color: black;
+                display: flex;
+                align-items: center;
+            }
+            #search-bar-input {
+                background-color: transparent;
+                border: 0;
+            }
+        }
+    }
+}
+
+.categories-subheader{
+    display: grid;
+    align-items: center;
+    height: 60px;
+    background-color: #CF755A;
+}
+
+.categories-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0 5%;
+    margin: 0;
+}
+
+.category{
+    color: white;
+    text-decoration: none;
+}
+
+.category:hover{
+    color: lightgreen;
+}
+
+/* Blog */
+
+.blog-header {
+    background-color: #CF755A;
+}
+
+.blog-header h1 {
+    font-size: 33px;
+    font-weight: bold;
+    padding: 8px 115px;
+    color: #FCFCFC;
+}
+
+.blog-background {
+    background-color: #D8D8D8;
+    z-index: -10;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ .blog-container {
+    margin: 18px 115px;
+    padding: 25px;
+    background-color: #E7DAD5;
+    justify-content: center;
+    border: solid 1px #707070;
+ }
+
+.blog-content {
+    background-color: #FFFFFF;
+    width: 31.81%;
+    margin: 8px;
+}
+
+
+
+/* Forside */
+
+.frontpage-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Hero grid */
+
+.hero-grid{
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: aqua;
+    height: 750px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.image1{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.image2{
+    background-color: yellow;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.image3{
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.image4{
+    background-color: orange;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+
+.image5{
+    background-color: purple;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+#hero-image > img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#hero-image > h2{
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popular Producter */
+
+.first-section-container{
+    padding: 0 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-section-container a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+}
+  
+.first-section-container a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.first-section-title{
+    margin: 0 auto 25px auto;
+}
+
+.popular-products{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.product-card{
+    background-color: #ebebeb;
+    box-shadow: 10px 10px 75px #c4c4c4;
+    border-radius: 25px;
+}
+
+.product-image > img{
+    border-radius: 25px 25px 0 0;
+}
+
+.product-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.product-text > button{
+    background-color: rgb(50, 132, 255);
+    color: white;
+    transform: all ease 0.3s;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.product-text > button:hover{
+    scale: 1.05;
+}
+.price-text{
+    color: rgb(50, 132, 255);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.crossed-text{
+    text-decoration: line-through;
+}
+
+
+
+/* Footer design */
+
+.footer-container{
+    background-color: #CF755A;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.footer-container h4{
+    color: white;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.footer-container a:hover{
+    color: white;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.some-logos .svgs {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    place-items: center;
+    color: black;
+    opacity: 75%;
+}
+
+.some-logos svg {
+    width: 30px;
+    height: 30px;
+
+}
+
+.nyhedsbrev {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.nyhedsbrev input{
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #E7DAD5;
+    transition: 0.2s;
+}
+
+.nyhedsbrev input:focus{
+    outline: none;
+}
+
+.nyhedsbrev button{
+    padding: 10px;
+    background-color: #E7DAD5;
+    border: none;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+.nyhedsbrev button:hover{
+    background-color: #CF755A;
+    color: white;
+    border: 1px solid #E7DAD5;
+    filter: drop-shadow(0 0 10px #E7DAD5);
+}
