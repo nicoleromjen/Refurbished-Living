@@ -95,31 +95,32 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
 
-                <div class="popular-products">
-                  <div class="product-card">
-                    <div class="product-image">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-1.jpg" alt="">
-                    </div>
 
-                    <?php
-                    $loop = new WP_Query(array(
-                      'post_type' => 'product',
-                      'posts_per_page' => -1
-                    ));
+
+                <?php
+                $loop = new WP_Query(array(
+                  'post_type' => 'product',
+                  'posts_per_page' => -1
+                ));
+                ?>
+
+                <?php if ($loop->have_posts()): ?>
+                  <?php while ($loop->have_posts()):
+                    $loop->the_post() ?>
+
+
+                    <?php global $product;
+                    $title = get_the_title();
+                    $excerpt = get_the_excerpt();
+                    $price = $product->get_price_html();
+                    $link = get_permalink();
                     ?>
 
-                    <?php if ($loop->have_posts()): ?>
-                      <?php while ($loop->have_posts()):
-                        $loop->the_post() ?>
-
-
-                        <?php global $product;
-                        $title = get_the_title();
-                        $excerpt = get_the_excerpt();
-                        $price = $product->get_price_html();
-                        $link = get_permalink();
-                        ?>
-
+                    <div class="popular-products">
+                      <div class="product-card">
+                        <div class="product-image">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-1.jpg" alt="">
+                        </div>
                         <div class="product-text">
                           <h3><?php echo $title ?></h3>
                           <p class="price-text"><strong>Pris:</strong> <?php echo $price ?></p>
@@ -127,13 +128,13 @@
                           <button><a href="<?php echo $link ?>">Se produkt</a></button>
                         </div>
                       </div>
+                    </div>
+                    <!-- Custom post type for the products  -->
+                  <?php endwhile; ?>
+                <?php endif; ?>
 
-                      <!-- Custom post type for the products  -->
-                    <?php endwhile; ?>
-                  <?php endif; ?>
 
 
-                </div>
 
               </div>
             </div>
