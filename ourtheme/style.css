@@ -199,6 +199,7 @@ nav .categories-subheader .categories-list .category:hover {
   display: flex;
   gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 .frontpage-container .first-section-container .popular-products .product-card {
   background-color: #ebebeb;
