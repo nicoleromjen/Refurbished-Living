@@ -6,7 +6,7 @@
     <title><?php bloginfo("name") ?></title>
     <?php wp_head() ?>
 </head>
-<body>
+<body <?php body_class() ?>>
     <nav>
         <ul id="header-ul">
             <li><a href=""><h1>LOGO</h1></a></li>
