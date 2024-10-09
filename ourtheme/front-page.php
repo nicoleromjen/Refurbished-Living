@@ -118,11 +118,11 @@
                       $excerpt = get_the_excerpt();
                       $price = $product->get_price_html();
                       $link = get_permalink();
-                      $image = get_field('product_image');
+                      $image_url = get_the_post_thumbnail_url(get_the_ID(), 'thumbnail');
                       ?>
                       <div class="product-card">
                         <div class="product-image">
-                          <img src="<?php echo esc_url($image['url']['thumbnail']) ?>" alt="">
+                          <img src="<?php echo esc_url($image_url) ?>" alt="">
                         </div>
                         <div class="product-text">
                           <h3><?php echo $title ?></h3>
