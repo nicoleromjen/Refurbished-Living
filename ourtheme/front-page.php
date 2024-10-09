@@ -122,7 +122,7 @@
                       ?>
                       <div class="product-card">
                         <div class="product-image">
-                          <img src="<?php echo $image['url'] ?>" alt="">
+                          <img src="<?php php the_field('image'); ?>" alt="">
                         </div>
                         <div class="product-text">
                           <h3><?php echo $title ?></h3>
