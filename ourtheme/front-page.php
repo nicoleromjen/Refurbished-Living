@@ -119,13 +119,18 @@
                       $price = $product->get_price_html();
                       $link = get_permalink();
                       $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
+                      $acftest1 = get_field('acftestfield1');
+                      $acftest2 = get_field('acftestfield2');
                       ?>
+
                       <div class="product-card">
                         <div class="product-image">
                           <img src="<?php echo esc_url($image_url) ?>" alt="">
                         </div>
                         <div class="product-text">
                           <h3><?php echo $title ?></h3>
+                          <p><?php echo $acftest1?></p>
+                          <p><?php echo $acftest2?></p>
                           <p class="price-text"><strong>Pris:</strong> <?php echo $price ?></p>
                           <!-- <p class="crossed-text">Tidligere pris: DKK 2.799</p> -->
                           <button><a href="<?php echo $link ?>">Se produkt</a></button>
@@ -134,11 +139,6 @@
                     <?php endwhile; ?>
                   <?php endif; ?>
                 </div>
-                <!-- Custom post type for the products  -->
-
-
-
-
 
               </div>
             </div>
