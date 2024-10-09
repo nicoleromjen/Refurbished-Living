@@ -77,114 +77,48 @@
 
               <!-- <a href="#" class="next round">&#8250;</a> -->
 
+              <?php
+        $loop = new WP_Query(array(
+            'post_type' => 'product', 
+            'posts_per_page' => -1
+        )); 
+        ?>
+
+        <?php if ($loop->have_posts()): ?>
+            <?php while ($loop->have_posts()): $loop->the_post() ?>
+                
+
+            <?php global $product; 
+            $title  = get_the_title();
+            $excerpt = get_the_excerpt();
+            $price = $product->get_price_html();
+            $link = get_permalink();
+            ?>
+
+            <!-- HTML CODE HERE -->
+
+            
+
+
               <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <div class="popular-products">
+                    < class="popular-products">
                       <div class="product-card">
                         <div class="product-image">
                           <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-1.jpg" alt="">
                         </div>
                         <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
+                          <h3><?php echo $title ?></h3>
+                          <p class="price-text"><strong>Pris:</strong> <?php echo $price ?></p>
+                          <!-- <p class="crossed-text">Tidligere pris: DKK 2.799</p> -->
+                          <button><a href="<?php echo $link ?>">Se produkt</a></button>
                         </div>
                       </div>
 
                       <!-- Custom post type for the products  -->
 
-                      <div class="product-card">
-                        <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-2.jpg" alt="">
-                        </div>
-                        <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
-                        </div>
-                      </div>
-
-                      <div class="product-card">
-                        <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-3.jpg" alt="">
-                        </div>
-                        <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
-                        </div>
-                      </div>
-
-                      <div class="product-card">
-                        <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-4.jpg" alt="">
-                        </div>
-                        <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-item">
-                    <div class="popular-products">
-                      <div class="product-card">
-                        <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-1.jpg" alt="">
-                        </div>
-                        <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
-                        </div>
-                      </div>
-
-                      <!-- Custom post type for the products  -->
-
-                      <div class="product-card">
-                        <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-2.jpg" alt="">
-                        </div>
-                        <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
-                        </div>
-                      </div>
-
-                      <div class="product-card">
-                        <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-3.jpg" alt="">
-                        </div>
-                        <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
-                        </div>
-                      </div>
-
-                      <div class="product-card">
-                        <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-4.jpg" alt="">
-                        </div>
-                        <div class="product-text">
-                          <h3>Product Name</h3>
-                          <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                          <button>Se produkt</button>
-                        </div>
-                      </div>
+                      
 
                     </div>
 
@@ -200,6 +134,8 @@
               </button>
             </div>
 
+            <?php endwhile; ?>
+        <?php endif; ?>
 
             </div>
         </div>
@@ -208,3 +144,30 @@
         <?php endwhile; ?>
     <?php endif; ?>
 <?php get_footer() ?>
+
+
+
+
+        <?php
+        $loop = new WP_Query(array(
+            'post_type' => 'product', 
+            'posts_per_page' => -1
+        )); 
+        ?>
+
+        <?php if ($loop->have_posts()): ?>
+            <?php while ($loop->have_posts()): $loop->the_post() ?>
+                
+
+            <?php global $product; 
+            $title  = get_the_title();
+            $excerpt = get_the_excerpt();
+            $price = $product->get_price_html();
+            $link = get_permalink();
+            ?>
+
+            <!-- HTML CODE HERE -->
+
+            
+<?php endwhile; ?>
+        <?php endif; ?>
