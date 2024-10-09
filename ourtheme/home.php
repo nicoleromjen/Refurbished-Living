@@ -2,9 +2,9 @@
 
 
 <div class="blog-background">
-<div class="blog-header">
-    <h1><?php pll_e("Blog")?></h1>
-</div>
+    <div class="blog-header">
+        <h1><?php pll_e("Blog")?></h1>
+    </div>
 
     <div class="blog-container row">
         <?php if (have_posts()): ?>
