@@ -183,57 +183,56 @@ nav .categories-subheader .categories-list .category:hover {
   grid-row-start: 3;
   grid-row-end: 7;
 }
-
-/* Popular Producter */
-.first-section-title {
+.frontpage-container .first-section-title {
   margin: 0 auto 25px auto;
 }
-
-.first-section-container {
+.frontpage-container .first-section-container {
   padding: 0 0 50px 0;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.first-section-container .popular-products {
+.frontpage-container .first-section-container .popular-products {
   display: flex;
   gap: 20px;
   align-items: center;
 }
-.first-section-container .popular-products .product-card {
+.frontpage-container .first-section-container .popular-products .product-card {
   background-color: #ebebeb;
   box-shadow: 10px 10px 75px #c4c4c4;
   border-radius: 25px;
 }
-.first-section-container .popular-products .product-card .product-image img {
+.frontpage-container .first-section-container .popular-products .product-card .product-image img {
   border-radius: 25px 25px 0 0;
 }
-.first-section-container .popular-products .product-card .product-text {
+.frontpage-container .first-section-container .popular-products .product-card .product-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 25px;
 }
-.first-section-container .popular-products .product-card .product-text button {
+.frontpage-container .first-section-container .popular-products .product-card .product-text button {
   background-color: rgb(50, 132, 255);
   color: white;
   transform: all ease 0.3s;
   padding: 10px 0;
   font-weight: 600;
 }
-.first-section-container .popular-products .product-card .product-text button:hover {
+.frontpage-container .first-section-container .popular-products .product-card .product-text button:hover {
   scale: 1.05;
 }
-.first-section-container .popular-products .product-card .product-text .price-text {
+.frontpage-container .first-section-container .popular-products .product-card .product-text .price-text {
   color: rgb(50, 132, 255);
   font-weight: 500;
   margin-bottom: 5px;
 }
-.first-section-container .popular-products .product-card .product-text .crossed-text {
+.frontpage-container .first-section-container .popular-products .product-card .product-text .crossed-text {
   text-decoration: line-through;
 }
 
+/* Popular Producter */
 /* Footer design */
 .footer-container {
   background-color: #CF755A;
