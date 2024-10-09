@@ -203,7 +203,7 @@ nav {
     
     .first-section-container{
         padding: 0 0 50px 0;
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -227,8 +227,8 @@ nav {
             align-items: center;
             .product-card{
                 background-color: #ebebeb;
-                box-shadow: 10px 10px 75px #c4c4c4;
                 border-radius: 25px;
+                width: 20%;
                 .product-image{
                     img{
                         border-radius: 25px 25px 0 0;
@@ -262,10 +262,16 @@ nav {
             }
         }
         .carousel-control-prev{
-            left: 10px !important;
+            left: -50px !important;
+            .carousel-icon{
+                background-color: black;
+            }
         }
         .carousel-control-next{
-            right: 10px !important;
+            right: -50px !important;
+            .carousel-icon{
+                background-color: black;
+            }
         }
     }
 
