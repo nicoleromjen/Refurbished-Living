@@ -241,27 +241,22 @@ nav .categories-subheader .categories-list .category:hover {
   justify-content: space-around;
   padding: 50px 0;
 }
-
-.footer-container h4 {
+.footer-container .footer-row {
+  display: flex;
+  flex-direction: column;
+}
+.footer-container .footer-row h4 {
   color: white;
 }
-
-.footer-container a {
+.footer-container .footer-row a {
   text-decoration: none;
   color: black;
   transition: 0.1s;
 }
-
-.footer-container a:hover {
+.footer-container .footer-row a:hover {
   color: white;
 }
-
-.footer-row {
-  display: flex;
-  flex-direction: column;
-}
-
-.some-logos .svgs {
+.footer-container .footer-row .some-logos .svgs {
   display: flex;
   gap: 10px;
   flex-direction: row;
@@ -269,40 +264,34 @@ nav .categories-subheader .categories-list .category:hover {
   color: black;
   opacity: 75%;
 }
-
-.some-logos svg {
+.footer-container .footer-row .some-logos .svgs svg {
   width: 30px;
   height: 30px;
 }
-
-.nyhedsbrev {
+.footer-container .footer-row .nyhedsbrev {
   display: flex;
   margin-top: 30px;
   gap: 10px;
   flex-direction: column;
 }
-
-.nyhedsbrev input {
+.footer-container .footer-row .nyhedsbrev input {
   padding: 10px;
   border-radius: 25px;
   border: none;
   background-color: #E7DAD5;
   transition: 0.2s;
 }
-
-.nyhedsbrev input:focus {
+.footer-container .footer-row .nyhedsbrev input:focus {
   outline: none;
 }
-
-.nyhedsbrev button {
+.footer-container .footer-row .nyhedsbrev button {
   padding: 10px;
   background-color: #E7DAD5;
   border: none;
   border-radius: 25px;
   transition: 0.2s;
 }
-
-.nyhedsbrev button:hover {
+.footer-container .footer-row .nyhedsbrev button:hover {
   background-color: #CF755A;
   color: white;
   border: 1px solid #E7DAD5;

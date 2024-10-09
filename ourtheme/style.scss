@@ -287,72 +287,63 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
-}
-
-.footer-container h4{
-    color: white;
-}
-
-.footer-container a {
-    text-decoration: none;
-    color: black;
-    transition: 0.1s;
-}
-
-.footer-container a:hover{
-    color: white;
-}
-
-.footer-row {
-    display: flex;
-    flex-direction: column;
-}
-
-.some-logos .svgs {
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
-    place-items: center;
-    color: black;
-    opacity: 75%;
-}
-
-.some-logos svg {
-    width: 30px;
-    height: 30px;
-
-}
-
-.nyhedsbrev {
-    display: flex;
-    margin-top: 30px;
-    gap: 10px;
-    flex-direction: column;
-}
-
-.nyhedsbrev input{
-    padding: 10px;
-    border-radius: 25px;
-    border: none;
-    background-color: #E7DAD5;
-    transition: 0.2s;
-}
-
-.nyhedsbrev input:focus{
-    outline: none;
-}
-
-.nyhedsbrev button{
-    padding: 10px;
-    background-color: #E7DAD5;
-    border: none;
-    border-radius: 25px;
-    transition: 0.2s;
-}
-
-.nyhedsbrev button:hover{
-    background-color: #CF755A;
-    color: white;
-    border: 1px solid #E7DAD5;
-    filter: drop-shadow(0 0 10px #E7DAD5);
+    .footer-row {
+        display: flex;
+        flex-direction: column;
+        h4{
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            transition: 0.1s;
+        }
+        a:hover{
+            color: white;
+        }
+        .some-logos{
+            .svgs{
+                display: flex;
+                gap: 10px;
+                flex-direction: row;
+                place-items: center;
+                color: black;
+                opacity: 75%; 
+                svg {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            
+        }
+        .nyhedsbrev {
+            display: flex;
+            margin-top: 30px;
+            gap: 10px;
+            flex-direction: column;
+            input{
+                padding: 10px;
+                border-radius: 25px;
+                border: none;
+                background-color: #E7DAD5;
+                transition: 0.2s;
+            }
+            input:focus{
+                outline: none;
+            }
+            button{
+                padding: 10px;
+                background-color: #E7DAD5;
+                border: none;
+                border-radius: 25px;
+                transition: 0.2s;
+            }
+            button:hover{
+                background-color: #CF755A;
+                color: white;
+                border: 1px solid #E7DAD5;
+                filter: drop-shadow(0 0 10px #E7DAD5);
+            }
+        }
+    }
 }
