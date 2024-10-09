@@ -234,6 +234,11 @@ nav .categories-subheader .categories-list .category:hover {
 .frontpage-container .first-section-container .popular-products .product-card .product-text .crossed-text {
   text-decoration: line-through;
 }
+.frontpage-container .first-section-container .popular-products .product-card .product-text a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
 .frontpage-container .first-section-container .carousel-control-prev {
   left: -50px !important;
 }
