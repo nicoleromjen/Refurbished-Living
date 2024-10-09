@@ -118,10 +118,11 @@
                       $excerpt = get_the_excerpt();
                       $price = $product->get_price_html();
                       $link = get_permalink();
+                      $image = get_field('product_image');
                       ?>
                       <div class="product-card">
                         <div class="product-image">
-                          <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-1.jpg" alt="">
+                          <img src="<?php echo $image['url'] ?>" alt="">
                         </div>
                         <div class="product-text">
                           <h3><?php echo $title ?></h3>
