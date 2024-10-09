@@ -131,6 +131,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 
     /* Hero grid */
     .hero-grid{
@@ -259,6 +260,12 @@ nav {
                 }
     
             }
+        }
+        .carousel-control-prev{
+            left: 10px !important;
+        }
+        .carousel-control-next{
+            right: 10px !important;
         }
     }
 
