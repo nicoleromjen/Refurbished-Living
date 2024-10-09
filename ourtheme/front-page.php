@@ -118,7 +118,7 @@
                       $excerpt = get_the_excerpt();
                       $price = $product->get_price_html();
                       $link = get_permalink();
-                      $image_url = get_the_post_thumbnail_url(get_the_ID(), 'thumbnail');
+                      $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
                       ?>
                       <div class="product-card">
                         <div class="product-image">
