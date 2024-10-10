@@ -47,6 +47,7 @@ nav #header-ul .nav-menu .nav-menu-list {
 }
 nav #header-ul .nav-menu .nav-bar ul {
   display: flex;
+  flex-direction: row-reverse;
   gap: 20px;
   list-style: none;
 }
