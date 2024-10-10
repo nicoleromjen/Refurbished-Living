@@ -48,8 +48,13 @@ nav #header-ul .nav-menu .nav-menu-list {
 nav #header-ul .nav-menu .nav-bar ul {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
   gap: 20px;
   list-style: none;
+}
+nav #header-ul .nav-menu .nav-bar ul .page_item .page-item-364,
+nav #header-ul .nav-menu .nav-bar ul .page_item .page-item-365 {
+  display: none;
 }
 nav #header-ul .search-bar {
   background-color: #E7DAD5;
