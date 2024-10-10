@@ -15,6 +15,7 @@ Author: Nicole
   background: none;
   border: none;
   color: #565656;
+  font-weight: 600;
 }
 
 nav {
@@ -40,17 +41,16 @@ nav #header-ul .nav-menu {
   gap: 50px;
   align-items: center;
 }
-nav #header-ul .nav-menu .nav-menu-list {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-}
 nav #header-ul .nav-menu .nav-bar ul {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  gap: 20px;
+  padding: 0;
+  gap: 50px;
   list-style: none;
+}
+nav #header-ul .nav-menu .nav-bar ul li a {
+  font-weight: 600;
 }
 nav #header-ul .search-bar {
   background-color: #E7DAD5;
