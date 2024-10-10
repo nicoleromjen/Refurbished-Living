@@ -46,6 +46,7 @@ nav {
             }
             .nav-bar ul {
                 display: flex; 
+                flex-direction: row-reverse;
                 gap: 20px; 
                 list-style: none; 
             }

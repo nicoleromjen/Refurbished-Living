@@ -25,72 +25,6 @@
         <h1 class="first-section-title">Populære Møbler</h1>
         <div class="first-section-container">
 
-          <!-- <a href="#" class="previous round">&#8249;</a> -->
-
-          <!-- <div class="popular-products">
-
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-1.jpg" alt="">
-                  </div>
-                  <div class="product-text">
-                    <h3>Product Name</h3>
-                    <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                    <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                    <button>Se produkt</button>
-                  </div>
-                </div>
-
-                 Custom post type for the products 
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-2.jpg" alt="">
-                  </div>
-                  <div class="product-text">
-                    <h3>Product Name</h3>
-                    <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                    <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                    <button>Se produkt</button>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-3.jpg" alt="">
-                  </div>
-                  <div class="product-text">
-                    <h3>Product Name</h3>
-                    <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                    <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                    <button>Se produkt</button>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/produkt-4.jpg" alt="">
-                  </div>
-                  <div class="product-text">
-                    <h3>Product Name</h3>
-                    <p class="price-text"><strong>Pris:</strong> DKK 1.999</p>
-                    <p class="crossed-text">Tidligere pris: DKK 2.799</p>
-                    <button>Se produkt</button>
-                  </div>
-                </div>
-                
-              </div> -->
-
-          <!-- <a href="#" class="next round">&#8250;</a> -->
-
-
-
-          <!-- HTML CODE HERE -->
-
-
-
-
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -122,6 +56,8 @@
                       $acftest1 = get_field('acftestfield1');
                       $acftest2 = get_field('acftestfield2');
                       ?>
+
+                      <!-- HTML CODE HERE -->
 
                       <div class="product-card">
                         <div class="product-image">
