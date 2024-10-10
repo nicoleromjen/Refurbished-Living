@@ -52,10 +52,6 @@ nav #header-ul .nav-menu .nav-bar ul {
   gap: 20px;
   list-style: none;
 }
-nav #header-ul .nav-menu .nav-bar ul .page_item .page-item-364,
-nav #header-ul .nav-menu .nav-bar ul .page_item .page-item-365 {
-  display: none;
-}
 nav #header-ul .search-bar {
   background-color: #E7DAD5;
   width: 250px;
@@ -95,6 +91,14 @@ nav .categories-subheader .categories-list .category {
 }
 nav .categories-subheader .categories-list .category:hover {
   color: lightgreen;
+}
+
+#navigation > div > ul > li.page_item.page-item-365 {
+  display: none;
+}
+
+#navigation > div > ul > li.page_item.page-item-364 {
+  display: none;
 }
 
 /* Blog */
