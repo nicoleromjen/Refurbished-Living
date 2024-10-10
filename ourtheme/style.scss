@@ -93,6 +93,9 @@ nav {
             .category:hover{
                 color: lightgreen;
             }
+            .dropdown-item{
+                text-decoration: none;
+            }
         }
     }
 }
@@ -184,6 +187,10 @@ nav {
             grid-column-end: 4;
             grid-row-start: 1;
             grid-row-end: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
     
         .image3{

@@ -66,8 +66,6 @@
                     <ul class="dropdown-menu">
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Udendørs Borde</button></a></li>
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Bænker</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -81,7 +79,6 @@
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Sofaer</button></a></li>
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Spiseborde</button></a></li>
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Barborde</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -109,7 +106,6 @@
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Senge</button></a></li>
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Træ stole</button></a></li>
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Læder stole</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -122,8 +118,6 @@
                     <ul class="dropdown-menu">
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Kommoder</button></a></li>
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Skaber</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -150,8 +144,6 @@
                     <ul class="dropdown-menu">
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Gulvlamper</button></a></li>
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Loftlamper</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
                     </ul>
                     </div>
                 </li>

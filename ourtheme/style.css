@@ -92,6 +92,9 @@ nav .categories-subheader .categories-list .category {
 nav .categories-subheader .categories-list .category:hover {
   color: lightgreen;
 }
+nav .categories-subheader .categories-list .dropdown-item {
+  text-decoration: none;
+}
 
 #navigation > div > ul > li.page_item.page-item-365 {
   display: none;
@@ -172,6 +175,10 @@ nav .categories-subheader .categories-list .category:hover {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .frontpage-container .hero-grid .image3 {
   background-color: green;
