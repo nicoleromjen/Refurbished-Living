@@ -367,46 +367,48 @@ nav {
     }
 }
 
-@media only screen and (max-width: 1600px){
-    .hero-grid{
-        .image1{
-            grid-column-start: 1;
-            grid-column-end: 4;
-            grid-row-start: 1;
-            grid-row-end: 3;
-        }
-    
-        .image2{
-            grid-column-start: 3;
-            grid-column-end: 4;
-            grid-row-start: 1;
-            grid-row-end: 5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-    
-        .image3{
-            grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 3;
-            grid-row-end: 5;
-        }
-    
-        .image4{
-            grid-column-start: 2;
-            grid-column-end: 3;
-            grid-row-start: 3;
-            grid-row-end: 5;
-        }
-    
-    
-        .image5{
-            grid-column-start: 1;
-            grid-column-end: 4;
-            grid-row-start: 5;
-            grid-row-end: 7;
+@media only screen and (max-width: 1000px) {
+    .frontpage-container{
+        .hero-grid{
+            .image1{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+        
+            .image2{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 5;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        
+            .image3{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 3;
+                grid-row-end: 5;
+            }
+        
+            .image4{
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 5;
+            }
+        
+        
+            .image5{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 5;
+                grid-row-end: 7;
+            }
         }
     }
 }
