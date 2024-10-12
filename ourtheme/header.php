@@ -9,7 +9,7 @@
 <body <?php body_class() ?>>
     <nav>
         <ul id="header-ul">
-            <li><a href=""><h1>LOGO</h1></a></li>
+            <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/refurbished-living-logo.png" alt=""></a></li>
             <div class="search-bar">
                 <input type="text" id="search-bar-input" value="<?php pll_e("Søg")?>">
                 <a href="">
