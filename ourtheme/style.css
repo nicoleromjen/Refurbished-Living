@@ -34,6 +34,7 @@ nav #header-ul li {
 }
 nav #header-ul li a {
   height: 80px;
+  display: flex;
 }
 nav #header-ul li a img {
   height: 100%;
