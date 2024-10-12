@@ -225,6 +225,8 @@ nav {
     .first-section-title{
         margin: 0 auto 25px auto;
     }
+
+    /* Popular Producter */
     
     .first-section-container{
         padding: 0 0 50px 0;
@@ -233,19 +235,6 @@ nav {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        // a {
-        //     text-decoration: none;
-        //     display: inline-block;
-        //     padding: 8px 16px;
-        //     font-size: 20px;
-        //     font-weight: bold;
-        //     width: 50px;
-        //     height: 50px;
-        // }
-        // a:hover {
-        //     background-color: #ddd;
-        //     color: black;
-        // }
         .popular-products{
             display: flex;
             gap: 20px;
@@ -309,23 +298,6 @@ nav {
 
 }
 
-/* Popular Producter */
-
-
-  
-// .previous {
-//     background-color: #f1f1f1;
-//     color: black;
-// }
-
-// .next {
-//     background-color: #04AA6D;
-//     color: white;
-// }
-
-// .round {
-//     border-radius: 50%;
-// }
 
 /* Footer design */
 
@@ -391,6 +363,50 @@ nav {
                 border: 1px solid #E7DAD5;
                 filter: drop-shadow(0 0 10px #E7DAD5);
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .hero-grid{
+        .image1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    
+        .image2{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .image3{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+    
+        .image4{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+    
+    
+        .image5{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 7;
         }
     }
 }

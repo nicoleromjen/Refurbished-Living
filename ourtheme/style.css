@@ -145,6 +145,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   flex-direction: column;
   align-items: center;
   /* Hero grid */
+  /* Popular Producter */
 }
 .frontpage-container .hero-grid {
   width: 90%;
@@ -273,7 +274,6 @@ nav .categories-subheader .categories-list .dropdown-item {
   background-color: black;
 }
 
-/* Popular Producter */
 /* Footer design */
 .footer-container {
   background-color: #CF755A;
@@ -336,4 +336,41 @@ nav .categories-subheader .categories-list .dropdown-item {
   color: white;
   border: 1px solid #E7DAD5;
   filter: drop-shadow(0 0 10px #E7DAD5);
+}
+
+@media only screen and (max-width: 1600px) {
+  .hero-grid .image1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .hero-grid .image2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-grid .image3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .hero-grid .image4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .hero-grid .image5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
 }/*# sourceMappingURL=style.css.map */
