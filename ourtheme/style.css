@@ -33,11 +33,12 @@ nav #header-ul li {
   list-style-type: none;
 }
 nav #header-ul li a {
-  height: 80px;
-  display: flex;
+  text-decoration: none;
+  color: #565656;
 }
 nav #header-ul li a img {
-  height: 100%;
+  height: 80px;
+  width: auto;
 }
 nav #header-ul .nav-menu {
   display: flex;
