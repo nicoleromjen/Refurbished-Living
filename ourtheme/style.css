@@ -33,8 +33,10 @@ nav #header-ul li {
   list-style-type: none;
 }
 nav #header-ul li a {
-  text-decoration: none;
-  color: #565656;
+  height: 80px;
+}
+nav #header-ul li a img {
+  height: 100%;
 }
 nav #header-ul .nav-menu {
   display: flex;

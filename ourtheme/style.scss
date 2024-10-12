@@ -32,8 +32,10 @@ nav {
         li {
             list-style-type: none;
             a {
-                text-decoration: none;
-                color:#565656;
+                height: 80px;
+                img{
+                    height: 100%;
+                }
             }
         }
         .nav-menu {
