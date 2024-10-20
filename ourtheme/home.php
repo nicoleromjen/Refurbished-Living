@@ -6,11 +6,11 @@
         <h1><?php pll_e("Blog")?></h1>
     </div>
 
-    <div class="blog-container row">
+    <div class="blog-container ">
         <?php if (have_posts()): ?>
             <?php while (have_posts()):
                 the_post() ?>
-                <div class="blog-content col-3">
+                <div class="blog-content ">
 
 
                     <?php
