@@ -52,14 +52,14 @@
 
         
     </div>
-    <div class="nyhedsbrev">
-            <h4>Tilmeld dig vores nyhedsbrev</h4>
-            <input type="text" placeholder="Indtast e-mail her">
-            <button>Tilmeld</button>
+    
 
 </footer>
 
-
+<div class="nyhedsbrev">
+            <h4>Tilmeld dig vores nyhedsbrev</h4>
+            <input type="text" placeholder="Indtast e-mail her">
+            <button>Tilmeld</button>
 
 </body>
 </html>
