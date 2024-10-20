@@ -1,5 +1,11 @@
 <?php wp_footer() ?>
 <footer class= 'footer-container'>
+        <div class="nyhedsbrev">
+            <h4>Tilmeld dig vores nyhedsbrev</h4>
+            <input type="text" placeholder="Indtast e-mail her">
+            <button>Tilmeld</button>
+
+        </div>
     <div class="footer-row browse" >
         <h4>Browsing</h4>
         <a href="">Produkter</a>
@@ -45,12 +51,7 @@
                 </a>
             </div>
         </div>
-        <div class="nyhedsbrev">
-            <h4>Tilmeld dig vores nyhedsbrev</h4>
-            <input type="text" placeholder="Indtast e-mail her">
-            <button>Tilmeld</button>
-
-        </div>
+        
 
 
     </div>
