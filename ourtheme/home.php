@@ -7,11 +7,11 @@
     </div>
 
     <div class="blog-container ">
-        
-                <div class="blog-content ">
-                    <?php if (have_posts()): ?>
+                        <?php if (have_posts()): ?>
                         <?php while (have_posts()):
                             the_post() ?>
+                <div class="blog-content ">
+                    
 
                                 <?php
                                 $url = get_permalink();
@@ -25,10 +25,10 @@
                     <p><?php echo $date; ?> by <?php echo $author; ?></p>
                     <p><?php echo $excerpt; ?></p>
 
-                        <?php endwhile; ?>
-                        <?php endif; ?>
+                        
                 </div>
-
+                <?php endwhile; ?>
+                <?php endif; ?>
             
     </div>
 </div>
