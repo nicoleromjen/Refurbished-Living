@@ -8,6 +8,7 @@ add_action("wp_enqueue_scripts", "refurbished_register_stylesheet");
 
 
 add_theme_support( 'menus' );
+add_theme_support( 'post-thumbnails' );
 
 add_action( 'init', 'register_my_menus' );
 
