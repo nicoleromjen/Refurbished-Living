@@ -416,7 +416,6 @@ nav .categories-subheader .categories-list .dropdown-item {
 
 @media (max-width: 1000px) {
   .hero-grid {
-    grid-template-columns: 1fr; /* 1 column for smaller screens */
     grid-template-rows: auto; /* Allow the rows to adjust automatically based on content */
   }
 
