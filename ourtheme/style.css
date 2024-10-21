@@ -212,7 +212,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   grid-row: 3/7;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 100px) {
   .hero-grid {
     grid-template-columns: 1fr; 
     grid-template-rows: auto;
