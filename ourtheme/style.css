@@ -139,18 +139,15 @@ nav .categories-subheader .categories-list .dropdown-item {
      object-fit: cover;
   overflow: hidden;
 }
-.blog-background .blog-container .blog-content h2 {
+.blog-background .blog-container .blog-content .blog-text {
+  padding: 10px;
+}
+.blog-background .blog-container .blog-content .blog-text h2 {
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
 }
-.blog-background .blog-container .blog-content h2 a {
-  text-decoration: none;
-  color: #CF755A;
-  padding: 10px 10px 0 10px;
-}
-.blog-background .blog-container .blog-content p {
-  padding: 10px 0 0 10px;
+.blog-background .blog-container .blog-content .blog-text p {
   font-size: 14px;
   margin: 0;
 }
@@ -166,17 +163,17 @@ nav .categories-subheader .categories-list .dropdown-item {
 }
 .frontpage-container .hero-grid {
   width: 90%;
-  margin: 50px auto;
-  padding: 10px;
+  margin: auto;
+  padding: 1%;
   background-color: rgb(255, 255, 255);
-  height: 750px;
+  height: auto;
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  gap: 1%;
+  grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+  grid-template-rows: repeat(6, minmax(100px, 1fr)); 
 }
 .frontpage-container .hero-grid #hero-image img {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 .frontpage-container .hero-grid #hero-image h2 {
@@ -186,17 +183,14 @@ nav .categories-subheader .categories-list .dropdown-item {
 }
 .frontpage-container .hero-grid .image1 {
   background-color: red;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 4;
+  grid-column: 1/3;
+  grid-row: 1/4;
 }
 .frontpage-container .hero-grid .image2 {
-  background-color: yellow;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  background-color: rgb(255, 243, 113);
+  grid-column: 3/4;
+  grid-row: 1/3;
+  display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,25 +198,21 @@ nav .categories-subheader .categories-list .dropdown-item {
 }
 .frontpage-container .hero-grid .image3 {
   background-color: green;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 7;
+  grid-column: 1/2;
+  grid-row: 4/7;
 }
 .frontpage-container .hero-grid .image4 {
   background-color: orange;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 7;
+  grid-column: 2/3;
+  grid-row: 4/7;
 }
 .frontpage-container .hero-grid .image5 {
   background-color: purple;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 7;
+  grid-column-start: 3/4;
+  grid-row: 3/7;
 }
+
+
 .frontpage-container .first-section-title {
   margin: 0 auto 25px auto;
 }
@@ -414,46 +404,19 @@ nav .categories-subheader .categories-list .dropdown-item {
   background-color: rgb(50, 132, 255);
 }
 
-.woocommerce-cart-form {
+.woocommerce {
   width: 90%;
   margin: auto;
 }
 
-.woocommerce {
-  width: 100%;
-}
-
-.woocommerce .cart-collaterals,
-.woocommerce-page .cart-collaterals {
+.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
   display: flex;
   justify-content: center;
-  width: 90%;
-  margin: auto;
-}
-
-/* My account page */
-.woocommerce-account .woocommerce-MyAccount-navigation ul {
-  display: grid;
-  gap: 5px;
-  font-size: 20px;
-}
-
-.woocommerce-account .woocommerce-MyAccount-content {
-  font-size: 20px;
-}
-
-/* Checkout Page */
-.woocommerce form .form-row input.input-text {
-  height: 40px;
-  font-size: 18px;
-}
-
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt {
-  background-color: rgb(50, 132, 255);
 }
 
 @media (max-width: 1000px) {
   .hero-grid {
+    grid-template-columns: 1fr; /* 1 column for smaller screens */
     grid-template-rows: auto; /* Allow the rows to adjust automatically based on content */
   }
 
@@ -477,12 +440,12 @@ nav .categories-subheader .categories-list .dropdown-item {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-end: 4;
   }
   .frontpage-container .hero-grid .image4 {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
+    grid-row-start: 4;
     grid-row-end: 5;
   }
   .frontpage-container .hero-grid .image5 {
