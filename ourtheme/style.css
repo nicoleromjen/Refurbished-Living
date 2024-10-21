@@ -455,8 +455,7 @@ nav .categories-subheader .categories-list .dropdown-item {
 }/*# sourceMappingURL=style.css.map */
 @media (max-width: 768px) {
   .hero-grid {
-    grid-template-columns: 1fr; 
-    grid-template-rows: auto;
+    grid-template-columns: 3fr; 
   }
 
 
