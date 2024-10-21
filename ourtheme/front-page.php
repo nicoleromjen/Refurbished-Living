@@ -18,11 +18,11 @@
         <!-- <?php echo do_shortcode('[contact-form-7 id="cc310c7" title="Support form"]') ?> -->
 
             <div class="hero-grid">
-                <div class="image1" id="hero-image"><img src="<?php echo esc_url($img1['url']); ?>" class="d-block w-50" alt="...">
+                <div class="image1" id="hero-image"><img src="<?php echo esc_url($img1['url']); ?>" class="d-block w-75" alt="...">
                 <div class="image2" id="hero-image"><h2><?php echo $sale ?></h2></div>
-                <div class="image3" id="hero-image"><img src="<?php echo esc_url($img2['url']); ?>" class="d-block w-50" alt="...">
-                <div class="image4" id="hero-image"><img src="<?php echo esc_url($img3['url']); ?>" class="d-block w-50" alt="...">
-                <div class="image5" id="hero-image"><img src="<?php echo esc_url($img4['url']); ?>" class="d-block w-50" alt="...">
+                <div class="image3" id="hero-image"><img src="<?php echo esc_url($img2['url']); ?>" class="d-block w-25" alt="...">
+                <div class="image4" id="hero-image"><img src="<?php echo esc_url($img3['url']); ?>" class="d-block w-25" alt="...">
+                <div class="image5" id="hero-image"><img src="<?php echo esc_url($img4['url']); ?>" class="d-block w-25" alt="...">
             </div>
 
             <h1 class="first-section-title">Populære Møbler</h1>
