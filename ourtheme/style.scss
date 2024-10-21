@@ -420,6 +420,26 @@ nav {
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt{
     background-color: rgb(50, 132, 255) ;
 }
+
+/* Cart page */
+//Rabatcode
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+    width: 50%;
+}
+//Go to checkout button
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt{
+    background-color: rgb(50, 132, 255) ;
+}
+//container-wrapper
+.woocommerce{
+    width: 90%;
+    margin: auto;
+}
+//total amount container
+.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals{
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (max-width: 1000px) {
     .frontpage-container{
         .hero-grid{
