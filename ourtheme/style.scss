@@ -530,6 +530,17 @@ nav {
     justify-content: center;
 }
 
+/* My account page */
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    display: grid;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content{
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 1000px) {
     .frontpage-container {
         .hero-grid {
