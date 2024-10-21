@@ -2,13 +2,22 @@
     <?php if(have_posts()): ?>
         <?php while(have_posts()): the_post() ?>
 
+<?php 
+                $sale = get_field('sale_text');
+                $img1 = get_field('promoimg');
+                $img2 = get_field('promoimg2');
+                $title = get_field ('promoimg3');
+                $intro = get_field('promoimg4');
+                $introimg1 = $introimg['sizes']['my_custom_size'];
+?>
+
         <main>
 
         <div class="frontpage-container">
             <!-- <?php echo do_shortcode('[contact-form-7 id="cc310c7" title="Support form"]') ?> -->
 
             <div class="hero-grid">
-                <div class="image1" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/used-furniture.jpeg" alt=""></div>
+                <div class="image1" id="hero-image">      <img src="<?php echo esc_url($img['url']); ?>" class="d-block w-100" alt="...">
                 <div class="image2" id="hero-image"><h2>SPAR OP TIL <br> 50%</h2></div>
                 <div class="image3" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/bed-grid.jpeg" alt=""></div>
                 <div class="image4" id="hero-image"><img src="<?php echo get_template_directory_uri(); ?>/img/eco-friendly.jpeg" alt=""></div>
