@@ -147,13 +147,14 @@ nav .categories-subheader .categories-list .dropdown-item {
   font-weight: bold;
   margin: 0;
 }
-.blog-background .blog-container .blog-content .blog-text p {
-  font-size: 14px;
-  margin: 0;
-}
-.blog-background .blog-container .blog-content .blog-text a {
+.blog-background .blog-container .blog-content h2 a {
   text-decoration: none;
   color: #CF755A;
+}
+.blog-background .blog-container .blog-content p {
+  padding: 10px 0 0 10px;
+  font-size: 14px;
+  margin: 0;
 }
 
 /* Forside */

@@ -177,6 +177,11 @@ nav {
                 font-size: 20px;
                 font-weight: bold;
                 margin: 0;
+
+                a {
+                    text-decoration: none;
+                    color: #CF755A;
+                }
             }
 
             p {
@@ -185,10 +190,7 @@ nav {
                 margin: 0;
             }
 
-            a {
-                text-decoration: none;
-                color: #CF755A;
-            }
+           
 
         }
     }
