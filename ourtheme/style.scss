@@ -146,8 +146,10 @@ nav {
             margin: 8px;
 
             .blog-content img {
+                display: block;
                 width: 100%;
                 height: 200px;
+                opbject-fit: cover;
             }
         }
     }
