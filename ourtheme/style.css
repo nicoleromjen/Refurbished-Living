@@ -2,386 +2,369 @@
 Theme Name: Our theme
 Author: Nicole
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Header */
-
 .pll-switcher-select {
-    background: none;
-    border: none;
-    color:#565656;
+  background: none;
+  border: none;
+  color: #565656;
+  font-weight: 600;
 }
 
 nav {
-    padding: 20px 0;
-    background-color: #f9f9f9;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+  /* Subheader */
 }
-
 nav #header-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
 }
-
 nav #header-ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 nav #header-ul li a {
-    text-decoration: none;
-    color:#565656;
+  text-decoration: none;
+  color: #565656;
 }
-
-.nav-menu {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-
+nav #header-ul li a img {
+  height: 80px;
+  width: auto;
 }
-
-.nav-menu .nav-menu-list {
-    display: flex;
-    gap: 25px;
-    align-items: center;
+nav #header-ul .nav-menu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
-
-.nav-menu .nav-bar ul {
-    display: flex; 
-    gap: 20px; 
-    list-style: none; 
+nav #header-ul .nav-menu .nav-bar ul {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 0;
+  gap: 50px;
+  list-style: none;
 }
-.search-bar {
-    background-color: #E7DAD5;
-    width: 250px;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 25px;
-    padding: 10px;
+nav #header-ul .nav-menu .nav-bar ul li a {
+  font-weight: 600;
 }
-
-.search-bar > a{
-    color: black;
+nav #header-ul .search-bar {
+  background-color: #E7DAD5;
+  width: 250px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+  padding: 10px;
 }
-
-.search-bar a {
-    display: flex;
-    align-items: center;
+nav #header-ul .search-bar a {
+  color: black;
+  display: flex;
+  align-items: center;
 }
-
-.search-bar #search-bar-input {
-    background-color: transparent;
-    border: 0;
+nav #header-ul .search-bar #search-bar-input {
+  background-color: transparent;
+  border: 0;
 }
-
-.categories-subheader{
-    display: grid;
-    align-items: center;
-    height: 60px;
-    background-color: #CF755A;
+nav .categories-subheader {
+  display: grid;
+  align-items: center;
+  height: 60px;
+  background-color: #CF755A;
 }
-
-.categories-list{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    padding: 0 5%;
-    margin: 0;
+nav .categories-subheader .categories-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0 5%;
+  margin: 0;
 }
-
-.category{
-    color: white;
-    text-decoration: none;
+nav .categories-subheader .categories-list .category {
+  color: white;
+  text-decoration: none;
 }
-
-.category:hover{
-    color: lightgreen;
+nav .categories-subheader .categories-list .category:hover {
+  color: lightgreen;
+}
+nav .categories-subheader .categories-list .dropdown-item {
+  text-decoration: none;
 }
 
 /* Blog */
-
-.blog-header {
-    background-color: #CF755A;
-}
-
-.blog-header h1 {
-    font-size: 33px;
-    font-weight: bold;
-    padding: 8px 115px;
-    color: #FCFCFC;
-}
-
 .blog-background {
-    background-color: #D8D8D8;
-    z-index: -10;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  background-color: #D8D8D8;
+  z-index: -10;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
-
- .blog-container {
-    margin: 18px 115px;
-    padding: 25px;
-    background-color: #E7DAD5;
-    justify-content: center;
-    border: solid 1px #707070;
- }
-
-.blog-content {
-    background-color: #FFFFFF;
-    width: 31.81%;
-    margin: 8px;
+.blog-background .blog-header {
+  background-color: #CF755A;
 }
-
-
+.blog-background .blog-header h1 {
+  font-size: 33px;
+  font-weight: bold;
+  padding: 8px 115px;
+  color: #FCFCFC;
+}
+.blog-background .blog-container {
+  margin: 18px 18px;
+  padding: 25px;
+  background-color: #E7DAD5;
+  border: solid 1px #707070;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.blog-background .blog-container .blog-content {
+  background-color: #FFFFFF;
+  width: 31.81%;
+  margin: 8px;
+}
 
 /* Forside */
-
-.frontpage-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.frontpage-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* Hero grid */
+  /* Popular Producter */
+}
+.frontpage-container .hero-grid {
+  width: 90%;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 750px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.frontpage-container .hero-grid #hero-image img {
+  height: 100%;
+  width: 100%;
+}
+.frontpage-container .hero-grid #hero-image h2 {
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.frontpage-container .hero-grid .image1 {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.frontpage-container .hero-grid .image2 {
+  background-color: yellow;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.frontpage-container .hero-grid .image3 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+.frontpage-container .hero-grid .image4 {
+  background-color: orange;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+.frontpage-container .hero-grid .image5 {
+  background-color: purple;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+.frontpage-container .first-section-title {
+  margin: 0 auto 25px auto;
+}
+.frontpage-container .first-section-container {
+  padding: 0 0 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.frontpage-container .first-section-container .popular-products {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.frontpage-container .first-section-container .popular-products .product-card {
+  background-color: #ebebeb;
+  border-radius: 25px;
+  width: 20%;
+}
+.frontpage-container .first-section-container .popular-products .product-card .product-image img {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+}
+.frontpage-container .first-section-container .popular-products .product-card .product-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+.frontpage-container .first-section-container .popular-products .product-card .product-text button {
+  background-color: rgb(50, 132, 255);
+  color: white;
+  transform: all ease 0.3s;
+  padding: 10px 0;
+  font-weight: 600;
+}
+.frontpage-container .first-section-container .popular-products .product-card .product-text button:hover {
+  scale: 1.05;
+}
+.frontpage-container .first-section-container .popular-products .product-card .product-text .price-text {
+  color: rgb(50, 132, 255);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.frontpage-container .first-section-container .popular-products .product-card .product-text .crossed-text {
+  text-decoration: line-through;
+}
+.frontpage-container .first-section-container .popular-products .product-card .product-text a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.frontpage-container .first-section-container .carousel-control-prev {
+  left: -50px !important;
+}
+.frontpage-container .first-section-container .carousel-control-prev .carousel-icon {
+  background-color: black;
+}
+.frontpage-container .first-section-container .carousel-control-next {
+  right: -50px !important;
+}
+.frontpage-container .first-section-container .carousel-control-next .carousel-icon {
+  background-color: black;
 }
 
-/* Hero grid */
-
-.hero-grid{
-    width: 90%;
-    margin: 50px auto;
-    padding: 10px;
-    background-color: aqua;
-    height: 750px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+/* Footer design */
+.footer-container {
+  background-color: #CF755A;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.footer-container .footer-row {
+  display: flex;
+  flex-direction: column;
+}
+.footer-container .footer-row h4 {
+  color: white;
+}
+.footer-container .footer-row a {
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+}
+.footer-container .footer-row a:hover {
+  color: white;
+}
+.footer-container .footer-row .some-logos .svgs {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  place-items: center;
+  color: black;
+  opacity: 75%;
+}
+.footer-container .footer-row .some-logos .svgs svg {
+  width: 30px;
+  height: 30px;
+}
+.footer-container .footer-row .nyhedsbrev {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  flex-direction: column;
+}
+.footer-container .footer-row .nyhedsbrev input {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #E7DAD5;
+  transition: 0.2s;
+}
+.footer-container .footer-row .nyhedsbrev input:focus {
+  outline: none;
+}
+.footer-container .footer-row .nyhedsbrev button {
+  padding: 10px;
+  background-color: #E7DAD5;
+  border: none;
+  border-radius: 25px;
+  transition: 0.2s;
+}
+.footer-container .footer-row .nyhedsbrev button:hover {
+  background-color: #CF755A;
+  color: white;
+  border: 1px solid #E7DAD5;
+  filter: drop-shadow(0 0 10px #E7DAD5);
 }
 
-.image1{
-    background-color: red;
+@media only screen and (max-width: 1000px) {
+  .frontpage-container .hero-grid .image1 {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;
-}
-
-.image2{
-    background-color: yellow;
-    grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-}
-
-.image3{
-    background-color: green;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 7;
-}
-
-.image4{
-    background-color: orange;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 7;
-}
-
-
-.image5{
-    background-color: purple;
+  }
+  .frontpage-container .hero-grid .image2 {
     grid-column-start: 3;
     grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .frontpage-container .hero-grid .image3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .frontpage-container .hero-grid .image4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .frontpage-container .hero-grid .image5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
     grid-row-end: 7;
-}
-
-#hero-image > img{
-    height: 100%;
-    width: 100%;
-}
-
-
-#hero-image > h2{
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Popular Producter */
-
-.first-section-container{
-    padding: 0 0 50px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.first-section-container a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-    font-size: 20px;
-    font-weight: bold;
-    width: 50px;
-    height: 50px;
-}
-  
-.first-section-container a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-.previous {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-.next {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.round {
-    border-radius: 50%;
-}
-
-.first-section-title{
-    margin: 0 auto 25px auto;
-}
-
-.popular-products{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.product-card{
-    background-color: #ebebeb;
-    box-shadow: 10px 10px 75px #c4c4c4;
-    border-radius: 25px;
-}
-
-.product-image > img{
-    border-radius: 25px 25px 0 0;
-}
-
-.product-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 25px;
-}
-
-.product-text > button{
-    background-color: rgb(50, 132, 255);
-    color: white;
-    transform: all ease 0.3s;
-    padding: 10px 0;
-    font-weight: 600;
-}
-
-.product-text > button:hover{
-    scale: 1.05;
-}
-.price-text{
-    color: rgb(50, 132, 255);
-    font-weight: 500;
-    margin-bottom: 5px;
-}
-
-.crossed-text{
-    text-decoration: line-through;
-}
-
-
-
-/* Footer design */
-
-.footer-container{
-    background-color: #CF755A;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-}
-
-.footer-container h4{
-    color: white;
-}
-
-.footer-container a {
-    text-decoration: none;
-    color: black;
-    transition: 0.1s;
-}
-
-.footer-container a:hover{
-    color: white;
-}
-
-.footer-row {
-    display: flex;
-    flex-direction: column;
-}
-
-.some-logos .svgs {
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
-    place-items: center;
-    color: black;
-    opacity: 75%;
-}
-
-.some-logos svg {
-    width: 30px;
-    height: 30px;
-
-}
-
-.nyhedsbrev {
-    display: flex;
-    margin-top: 30px;
-    gap: 10px;
-    flex-direction: column;
-}
-
-.nyhedsbrev input{
-    padding: 10px;
-    border-radius: 25px;
-    border: none;
-    background-color: #E7DAD5;
-    transition: 0.2s;
-}
-
-.nyhedsbrev input:focus{
-    outline: none;
-}
-
-.nyhedsbrev button{
-    padding: 10px;
-    background-color: #E7DAD5;
-    border: none;
-    border-radius: 25px;
-    transition: 0.2s;
-}
-
-.nyhedsbrev button:hover{
-    background-color: #CF755A;
-    color: white;
-    border: 1px solid #E7DAD5;
-    filter: drop-shadow(0 0 10px #E7DAD5);
-}
+  }
+}/*# sourceMappingURL=style.css.map */

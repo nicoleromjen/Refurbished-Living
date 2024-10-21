@@ -8,6 +8,7 @@ add_action("wp_enqueue_scripts", "refurbished_register_stylesheet");
 
 
 add_theme_support( 'menus' );
+add_theme_support( 'post-thumbnails' );
 
 add_action( 'init', 'register_my_menus' );
 
@@ -40,3 +41,8 @@ function webshop_register_strings() {
 }
 
 add_action("init", "webshop_register_strings"); 
+
+function shop_enable_woocommerce() {
+    add_theme_support("woocommerce");
+}
+add_action("after_setup_theme", "shop_enable_woocommerce");

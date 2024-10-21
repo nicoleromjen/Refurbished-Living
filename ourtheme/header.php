@@ -6,10 +6,10 @@
     <title><?php bloginfo("name") ?></title>
     <?php wp_head() ?>
 </head>
-<body>
+<body <?php body_class() ?>>
     <nav>
         <ul id="header-ul">
-            <li><a href=""><h1>LOGO</h1></a></li>
+            <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/refurbished-living-logo.png" alt=""></a></li>
             <div class="search-bar">
                 <input type="text" id="search-bar-input" value="<?php pll_e("Søg")?>">
                 <a href="">
@@ -34,11 +34,11 @@
 
                 </div>
 
-                <div class="shopping-cart">
+                <!-- <div class="shopping-cart">
                     <a href="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M21.08 7a2 2 0 0 0-1.7-1H6.58L6 3.74A1 1 0 0 0 5 3H3a1 1 0 0 0 0 2h1.24L7 15.26A1 1 0 0 0 8 16h9a1 1 0 0 0 .89-.55l3.28-6.56A2 2 0 0 0 21.08 7m-4.7 7H8.76L7.13 8h12.25Z"/><circle cx="7.5" cy="19.5" r="1.5" fill="currentColor"/><circle cx="17.5" cy="19.5" r="1.5" fill="currentColor"/></svg>
                     </a>
-                </div>
+                </div> -->
             </li>
         </ul>
         <div class="categories-subheader">
@@ -64,10 +64,8 @@
                     <?php pll_e("List-1.2") ?>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Udendørs Borde</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Bænker</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -78,10 +76,9 @@
                     <?php pll_e("List-1.3") ?>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Sofaer</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Spiseborde</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Barborde</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -106,10 +103,9 @@
                     <?php pll_e("List-1.5") ?>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Senge</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Træ stole</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Læder stole</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -120,10 +116,8 @@
                     <?php pll_e("List-1.6") ?>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Kommoder</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Skaber</button></a></li>
                     </ul>
                     </div>
                 </li>
@@ -148,10 +142,8 @@
                     <?php pll_e("List-1.8") ?>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Gulvlamper</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Loftlamper</button></a></li>
                     </ul>
                     </div>
                 </li>
