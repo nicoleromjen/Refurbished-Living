@@ -139,19 +139,18 @@ nav .categories-subheader .categories-list .dropdown-item {
      object-fit: cover;
   overflow: hidden;
 }
-.blog-background .blog-container .blog-content .blog-text {
-  padding: 10px;
-}
-.blog-background .blog-container .blog-content .blog-text h2 {
+.blog-background .blog-container .blog-content h2 {
+  padding: 10px 0 0 10px;
   font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
-.blog-background .blog-container .blog-content .blog-text p {
+.blog-background .blog-container .blog-content p {
+  padding: 10px 0 0 10px;
   font-size: 14px;
   margin: 0;
 }
-.blog-background .blog-container .blog-content .blog-text a {
+.blog-background .blog-container .blog-content a {
   text-decoration: none;
   color: #CF755A;
 }
@@ -192,7 +191,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   grid-row-end: 4;
 }
 .frontpage-container .hero-grid .image2 {
-  background-color: rgb(255, 243, 113);
+  background-color: yellow;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
@@ -419,9 +418,21 @@ nav .categories-subheader .categories-list .dropdown-item {
   margin: auto;
 }
 
-.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
+.woocommerce .cart-collaterals,
+.woocommerce-page .cart-collaterals {
   display: flex;
   justify-content: center;
+}
+
+/* My account page */
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+  display: grid;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 1000px) {
