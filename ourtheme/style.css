@@ -451,5 +451,8 @@ nav .categories-subheader .categories-list .dropdown-item {
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 3;
+    padding-bottom: 1%;
   }
+
+  
 }/*# sourceMappingURL=style.css.map */
