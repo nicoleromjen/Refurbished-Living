@@ -390,6 +390,25 @@ nav .categories-subheader .categories-list .dropdown-item {
   background-color: rgb(50, 132, 255);
 }
 
+/* Cart page */
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+  width: 50%;
+}
+
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt {
+  background-color: rgb(50, 132, 255);
+}
+
+.woocommerce {
+  width: 90%;
+  margin: auto;
+}
+
+.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 1000px) {
   .frontpage-container .hero-grid .image1 {
     grid-column-start: 1;
