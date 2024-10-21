@@ -427,8 +427,8 @@ nav .categories-subheader .categories-list .dropdown-item {
   .frontpage-container .hero-grid .image2 {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
     display: flex;
     justify-content: center;
     align-items: center;
