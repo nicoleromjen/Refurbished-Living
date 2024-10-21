@@ -421,7 +421,7 @@ nav .categories-subheader .categories-list .dropdown-item {
 
   .frontpage-container .hero-grid .image1 {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
   }
@@ -439,13 +439,13 @@ nav .categories-subheader .categories-list .dropdown-item {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 3;
   }
   .frontpage-container .hero-grid .image4 {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
   }
   .frontpage-container .hero-grid .image5 {
     grid-column-start: 1;
