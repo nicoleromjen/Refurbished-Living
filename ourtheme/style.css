@@ -170,7 +170,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   display: grid;
   gap: 1%;
   grid-template-columns: repeat(3, minmax(100px, 1fr)); 
-  grid-template-rows: repeat(6, minmax(100px, 1fr)); 
+  grid-template-rows: repeat(6, minmax(50px, 1fr)); 
 }
 .frontpage-container .hero-grid #hero-image img {
   height: auto;
@@ -210,7 +210,6 @@ nav .categories-subheader .categories-list .dropdown-item {
   grid-column-start: 3/4;
   grid-row: 3/7;
 }
-
 
 .frontpage-container .first-section-title {
   margin: 0 auto 25px auto;
