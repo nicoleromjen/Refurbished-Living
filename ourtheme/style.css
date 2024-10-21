@@ -453,9 +453,6 @@ nav .categories-subheader .categories-list .dropdown-item {
 }
 
 @media (max-width: 1000px) {
-  .hero-grid {
-    grid-template-columns: 3fr; 
-  }
   .frontpage-container .hero-grid .image1 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -463,10 +460,10 @@ nav .categories-subheader .categories-list .dropdown-item {
     grid-row-end: 1;
   }
   .frontpage-container .hero-grid .image2 {
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
     display: flex;
     justify-content: center;
     align-items: center;
