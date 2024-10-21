@@ -144,6 +144,11 @@ nav {
             background-color: #FFFFFF;
             width: 31.81%;
             margin: 8px;
+
+            .blog-content img {
+                width: 100%;
+                height: 200px;
+            }
         }
     }
 }
