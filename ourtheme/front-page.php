@@ -16,7 +16,7 @@
 
       <div class="frontpage-container">
         <!-- <?php echo do_shortcode('[contact-form-7 id="cc310c7" title="Support form"]') ?> -->
-         <?php echo do_shortcode('[product_categories]') ?>
+         <!-- <?php echo do_shortcode('[product_categories]') ?> -->
 
             <div class="hero-grid">
                 <div class="image1" id="hero-image"><img src="<?php echo esc_url($img1['url']); ?>" class="d-block" alt="...">  </div>
