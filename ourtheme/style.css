@@ -414,10 +414,7 @@ nav .categories-subheader .categories-list .dropdown-item {
 }
 
 @media (max-width: 1000px) {
-  .hero-grid {
-    grid-template-rows: auto; 
-  }
-
+ 
   .frontpage-container .hero-grid .image1 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -433,6 +430,8 @@ nav .categories-subheader .categories-list .dropdown-item {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: auto;
+    width: 100%;
   }
   .frontpage-container .hero-grid .image3 {
     grid-column-start: 1;
