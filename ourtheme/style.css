@@ -189,7 +189,7 @@ nav .categories-subheader .categories-list .dropdown-item {
 .frontpage-container .hero-grid .image2 {
   background-color: rgb(255, 243, 113);
   grid-column: 3/4;
-  grid-row: 1/2;
+  grid-row: 1/3;
   display: flex;
   display: flex;
   justify-content: center;
