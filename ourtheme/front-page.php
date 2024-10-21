@@ -17,7 +17,7 @@
       <div class="frontpage-container">
          <!-- <?php echo do_shortcode('[product_categories]') ?> -->
 
-            <div class="hero-grid">
+a            <div class="hero-grid">
                 <div class="image1" id="hero-image"><img src="<?php echo esc_url($img1['url']); ?>" class="" alt="...">  </div>
                 <div class="image2" id="hero-image"><h2><?php echo $sale ?></h2></div>
                 <div class="image3" id="hero-image"><img src="<?php echo esc_url($img2['url']); ?>" class="" alt="...">  </div>
@@ -214,7 +214,7 @@
             </div>
         </div>
 
-        <h1 class="first-section-title">Populære Møbler</h1>
+        <!-- <h1 class="first-section-title">Populære Møbler</h1>
         <div class="first-section-container">
 
           <div id="carouselExample" class="carousel slide">
@@ -249,7 +249,7 @@
                       $acftest2 = get_field('acftestfield2');
                       ?>
 
-                      <!-- HTML CODE HERE -->
+                      HTML CODE HERE
 
                       <div class="product-card">
                         <div class="product-image">
@@ -260,7 +260,7 @@
                           <p><?php echo $acftest1?></p>
                           <p><?php echo $acftest2?></p>
                           <p class="price-text"><strong>Pris:</strong> <?php echo $price ?></p>
-                          <!-- <p class="crossed-text">Tidligere pris: DKK 2.799</p> -->
+                          <p class="crossed-text">Tidligere pris: DKK 2.799</p>
                           <button><a href="<?php echo $link ?>">Se produkt</a></button>
                         </div>
                       </div>
@@ -283,37 +283,9 @@
 
 
         </div>
-      </div>
+      </div> -->
 
     </main>
   <?php endwhile; ?>
 <?php endif; ?>
 <?php get_footer() ?>
-
-
-
-
-<?php
-$loop = new WP_Query(array(
-  'post_type' => 'product',
-  'posts_per_page' => -1
-));
-?>
-
-<?php if ($loop->have_posts()): ?>
-  <?php while ($loop->have_posts()):
-    $loop->the_post() ?>
-
-
-    <?php global $product;
-    $title = get_the_title();
-    $excerpt = get_the_excerpt();
-    $price = $product->get_price_html();
-    $link = get_permalink();
-    ?>
-
-    <!-- HTML CODE HERE -->
-
-
-  <?php endwhile; ?>
-<?php endif; ?>
