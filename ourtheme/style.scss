@@ -519,7 +519,7 @@ nav {
 }
 
 //container-wrapper
-.woocommerce {
+.woocommerce-cart-form{
     width: 90%;
     margin: auto;
 }
@@ -529,6 +529,8 @@ nav {
 .woocommerce-page .cart-collaterals {
     display: flex;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 /* My account page */

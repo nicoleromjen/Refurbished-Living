@@ -409,7 +409,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   background-color: rgb(50, 132, 255);
 }
 
-.woocommerce {
+.woocommerce-cart-form {
   width: 90%;
   margin: auto;
 }
@@ -417,6 +417,8 @@ nav .categories-subheader .categories-list .dropdown-item {
 .woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
   display: flex;
   justify-content: center;
+  width: 90%;
+  margin: auto;
 }
 
 @media only screen and (max-width: 1000px) {
