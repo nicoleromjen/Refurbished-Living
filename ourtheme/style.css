@@ -100,14 +100,6 @@ nav .categories-subheader .categories-list .dropdown-item {
   text-decoration: none;
 }
 
-#navigation > div > ul > li.page_item.page-item-365 {
-  display: none;
-}
-
-#navigation > div > ul > li.page_item.page-item-364 {
-  display: none;
-}
-
 /* Blog */
 .blog-background {
   background-color: #D8D8D8;
@@ -153,7 +145,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   width: 90%;
   margin: 50px auto;
   padding: 10px;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   height: 750px;
   display: grid;
   gap: 10px;

@@ -83,7 +83,7 @@
                     </div>
                 </li>
 
-                <!-- <li class="dropdown-category">
+                <li class="dropdown-category">
                     <div class="properties-dropdown">
                     <a class="category" role="button" data-bs-toggle="dropdown">
                     <?php pll_e("List-1.4") ?>
@@ -95,7 +95,7 @@
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
                     </ul>
                     </div>
-                </li> -->
+                </li>
 
                 <li class="dropdown-category">
                     <div class="properties-dropdown">
@@ -122,7 +122,7 @@
                     </div>
                 </li>
 
-                <!-- <li class="dropdown-category">
+                <li class="dropdown-category">
                     <div class="properties-dropdown">
                     <a class="category" role="button" data-bs-toggle="dropdown">
                     <?php pll_e("List-1.7") ?>
@@ -134,7 +134,7 @@
                         <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
                     </ul>
                     </div>
-                </li> -->
+                </li>
 
                 <li class="dropdown-category">
                     <div class="properties-dropdown">
