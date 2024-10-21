@@ -139,19 +139,18 @@ nav .categories-subheader .categories-list .dropdown-item {
      object-fit: cover;
   overflow: hidden;
 }
-.blog-background .blog-container .blog-content .blog-text {
-  padding: 10px;
-}
-.blog-background .blog-container .blog-content .blog-text h2 {
+.blog-background .blog-container .blog-content h2 {
+  padding: 10px 0 0 10px;
   font-size: 20px;
   font-weight: bold;
   margin: 0;
 }
-.blog-background .blog-container .blog-content .blog-text p {
+.blog-background .blog-container .blog-content p {
+  padding: 10px 0 0 10px;
   font-size: 14px;
   margin: 0;
 }
-.blog-background .blog-container .blog-content .blog-text a {
+.blog-background .blog-container .blog-content a {
   text-decoration: none;
   color: #CF755A;
 }
@@ -420,7 +419,8 @@ nav .categories-subheader .categories-list .dropdown-item {
   margin: auto;
 }
 
-.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
+.woocommerce .cart-collaterals,
+.woocommerce-page .cart-collaterals {
   display: flex;
   justify-content: center;
 }
