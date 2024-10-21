@@ -152,6 +152,23 @@ nav {
                 object-fit: cover;
                 overflow: hidden;
             }
+
+            .blog-text {
+                padding: 10px;
+                h2 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 0;
+                }
+                p {
+                    font-size: 14px;
+                    margin: 0;
+                }
+                a {
+                    text-decoration: none;
+                    color: #CF755A;
+                }
+            }
         }
     }
 }
