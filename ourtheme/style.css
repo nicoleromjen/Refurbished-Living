@@ -142,7 +142,7 @@ nav .categories-subheader .categories-list .dropdown-item {
 .blog-background .blog-container .blog-content h2 {
   font-size: 20px;
   font-weight: bold;
-  margin: 0;
+  margin-top: 10px;
 }
 .blog-background .blog-container .blog-content h2 a {
   text-decoration: none;
