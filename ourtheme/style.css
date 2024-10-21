@@ -421,7 +421,7 @@ nav .categories-subheader .categories-list .dropdown-item {
 
   .frontpage-container .hero-grid .image1 {
     grid-column-start: 1;
-    grid-column-end: 1;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
   }
