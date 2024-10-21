@@ -145,14 +145,14 @@ nav .categories-subheader .categories-list .dropdown-item {
   font-weight: bold;
   margin: 0;
 }
+.blog-background .blog-container .blog-content h2 a {
+  text-decoration: none;
+  color: #CF755A;
+}
 .blog-background .blog-container .blog-content p {
   padding: 10px 0 0 10px;
   font-size: 14px;
   margin: 0;
-}
-.blog-background .blog-container .blog-content a {
-  text-decoration: none;
-  color: #CF755A;
 }
 
 /* Forside */
@@ -192,7 +192,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   grid-row-end: 4;
 }
 .frontpage-container .hero-grid .image2 {
-  background-color: rgb(255, 243, 113);
+  background-color: yellow;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
