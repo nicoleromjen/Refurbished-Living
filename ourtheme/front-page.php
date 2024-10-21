@@ -25,7 +25,7 @@
                 <div class="image5" id="hero-image"><img src="<?php echo esc_url($img4['url']); ?>" class="" alt="...">  </div>
             </div>
 
-            <h1 class="first-section-title">Populære Møbler</h1>
+            <h1 class="first-section-title">Trending</h1>
             <div class="first-section-container">
 
               <!-- <a href="#" class="previous round">&#8249;</a> -->
