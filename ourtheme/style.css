@@ -169,8 +169,8 @@ nav .categories-subheader .categories-list .dropdown-item {
   height: auto;
   display: grid;
   gap: 1%;
-  grid-template-columns: repeat(3, minmax(50px, 1fr)); 
-  grid-template-rows: repeat(6, minmax(50px, 1fr)); 
+  grid-template-columns: repeat(3, minmax(1px, 1fr)); 
+  grid-template-rows: repeat(6, minmax(1px, 1fr)); 
 }
 .frontpage-container .hero-grid #hero-image img {
   height: auto;
