@@ -170,7 +170,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   margin: 50px auto;
   padding: 10px;
   background-color: rgb(255, 255, 255);
-  height: 50%;
+  height: 100rem;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
