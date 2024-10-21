@@ -222,7 +222,17 @@ nav .categories-subheader .categories-list .dropdown-item {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  button{
+    span{
+        background-color: #cf755a;
+    }
 }
+}
+
+frontpage-container .first-section-container button span {
+  background-color: #cf755a;
+}
+
 .frontpage-container .first-section-container .carousel {
   overflow: hidden;
 }
