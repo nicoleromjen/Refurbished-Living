@@ -171,6 +171,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   gap: 1%;
   grid-template-columns: repeat(3, minmax(100px, 1fr)); 
   grid-template-rows: repeat(6, minmax(100px, 1fr)); 
+  object-fit: cover;
 }
 .frontpage-container .hero-grid #hero-image img {
   height: auto;
