@@ -450,7 +450,7 @@ nav .categories-subheader .categories-list .dropdown-item {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-end: 5;
   }
 }/*# sourceMappingURL=style.css.map */
 @media (max-width: 768px) {
