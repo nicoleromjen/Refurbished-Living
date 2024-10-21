@@ -415,6 +415,10 @@ nav .categories-subheader .categories-list .dropdown-item {
 }
 
 @media (max-width: 1000px) {
+  .hero-grid {
+    grid-template-rows: auto; /* Allow the rows to adjust automatically based on content */
+  }
+
   .frontpage-container .hero-grid .image1 {
     grid-column-start: 1;
     grid-column-end: 4;
