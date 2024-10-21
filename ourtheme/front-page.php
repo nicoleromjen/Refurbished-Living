@@ -17,7 +17,7 @@
       <div class="frontpage-container">
          <!-- <?php echo do_shortcode('[product_categories]') ?> -->
 
-a            <div class="hero-grid">
+            <div class="hero-grid">
                 <div class="image1" id="hero-image"><img src="<?php echo esc_url($img1['url']); ?>" class="" alt="...">  </div>
                 <div class="image2" id="hero-image"><h2><?php echo $sale ?></h2></div>
                 <div class="image3" id="hero-image"><img src="<?php echo esc_url($img2['url']); ?>" class="" alt="...">  </div>
