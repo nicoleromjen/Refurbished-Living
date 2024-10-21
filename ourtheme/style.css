@@ -246,7 +246,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   scale: 1.05;
 }
 .frontpage-container .first-section-container .popular-products .product-card .product-text .price-text {
-  color: rgb(50, 132, 255);
+  color: #b3af54;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -370,6 +370,16 @@ nav .categories-subheader .categories-list .dropdown-item {
 
 .woocommerce .woocommerce-ordering {
   margin: 0 5% 1em 0;
+}
+
+/* Single product page styling */
+.woocommerce div.product {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt {
+  background-color: rgb(50, 132, 255);
 }
 
 @media only screen and (max-width: 1000px) {

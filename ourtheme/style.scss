@@ -271,7 +271,7 @@ nav {
                         scale: 1.05;
                     }
                     .price-text{
-                        color: rgb(50, 132, 255);
+                        color: #b3af54;
                         font-weight: 500;
                         margin-bottom: 5px;
                     }
@@ -410,6 +410,16 @@ nav {
     margin: 0 5% 1em 0;
 }
 
+/* Single product page styling */
+// container of page
+.woocommerce div.product{
+    width: 90%;
+    margin: 0 auto;
+}
+//add to basket button
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt{
+    background-color: rgb(50, 132, 255) ;
+}
 @media only screen and (max-width: 1000px) {
     .frontpage-container{
         .hero-grid{
