@@ -128,10 +128,8 @@
                     <?php pll_e("List-1.7") ?>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 2</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 3</button></a></li>
-                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Item 4</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Kontorstole</button></a></li>
+                        <li><a class="category-item" href=""><button class="dropdown-item" type="button">Gamingstole</button></a></li>
                     </ul>
                     </div>
                 </li>
