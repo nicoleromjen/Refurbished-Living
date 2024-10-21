@@ -149,7 +149,8 @@ nav {
                 display: block;
                 width: 100%;
                 height: 200px;
-                opbject-fit: cover;
+                object-fit: cover;
+                overflow: hidden;
             }
         }
     }
