@@ -504,7 +504,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   width: 50%;
 }
 
-.wpcf7-form init {
+.wpcf7-form {
   display: flex;
   justify-content: center;
   align-items: center;
