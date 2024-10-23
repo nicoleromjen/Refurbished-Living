@@ -235,7 +235,7 @@ nav {
                 align-items: center;
             }
 
-        }
+        
 
         .image1 {
             background-color: red;
@@ -266,8 +266,11 @@ nav {
             background-color: purple;
             grid-column-start: 3/4;
             grid-row: 3/7;
-          
+         
+            
+        }
     }
+
 
     .first-section-title {
         margin: 0 auto 25px auto;
