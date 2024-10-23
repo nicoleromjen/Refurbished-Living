@@ -210,15 +210,17 @@ nav {
     
 
     .hero-grid {
+        
         width: 90%;
-        margin: 50px auto;
-        padding: 10px;
+        margin: auto;
+        padding: 1%;
         background-color: rgb(255, 255, 255);
-        height: 750px;
+        height: auto;
         display: grid;
-        gap: 10px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        gap: 1%;
+        grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+        grid-template-rows: repeat(6, minmax(100px, 1fr)); 
+      
 
         #hero-image {
             img {
