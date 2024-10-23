@@ -18,11 +18,11 @@
          <!-- <?php echo do_shortcode('[product_categories]') ?> -->
 
             <div class="hero-grid">
-                <div class="image1" id="hero-image"><img src="<?php echo esc_url($img1['url']); ?>" class="" alt="...">  </div>
-                <div class="image2" id="hero-image"><h2><?php echo $sale ?></h2></div>
-                <div class="image3" id="hero-image"><img src="<?php echo esc_url($img2['url']); ?>" class="" alt="...">  </div>
-                <div class="image4" id="hero-image"><img src="<?php echo esc_url($img3['url']); ?>" class="" alt="...">  </div>
-                <div class="image5" id="hero-image"><img src="<?php echo esc_url($img4['url']); ?>" class="" alt="...">  </div>
+                <div class="image1 image-container" id="hero-image"><img src="<?php echo esc_url($img1['url']); ?>" class="" alt="...">  </div>
+                <div class="image2 image-container" id="hero-image"><h2><?php echo $sale ?></h2></div>
+                <div class="image3 image-container" id="hero-image"><img src="<?php echo esc_url($img2['url']); ?>" class="" alt="...">  </div>
+                <div class="image4 image-container" id="hero-image"><img src="<?php echo esc_url($img3['url']); ?>" class="" alt="...">  </div>
+                <div class="image5 image-container" id="hero-image"><img src="<?php echo esc_url($img4['url']); ?>" class="" alt="...">  </div>
             </div>
 
             <h1 class="first-section-title">Trending</h1>
