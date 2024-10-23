@@ -610,10 +610,12 @@ nav {
     }
 }
 
-.wpcf7-f6-o1 {
+#wpcf7-f6-o1 {
     margin: 0 auto;
     width: 50%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wpcf7-form {
