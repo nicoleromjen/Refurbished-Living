@@ -200,7 +200,7 @@ nav .categories-subheader .categories-list .dropdown-item {
   grid-row-end: 4;
 }
 .frontpage-container .hero-grid .image2 {
-  background-color: yellow;
+  background-color: rgb(255, 255, 86);
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
