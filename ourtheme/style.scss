@@ -222,10 +222,10 @@ nav {
         .image-container {
             width: 100%;
             height: 100%;
-            overflow: hidden; 
             display: flex; 
             justify-content: center;
             align-items: center;
+            overflow: hidden; 
     
             img {
                 width: 100%;
@@ -234,19 +234,12 @@ nav {
             }
         }
     
-        #hero-image {
             img {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
             }
-    
-            h2 {
-                font-weight: bold;
-                justify-content: center;
-                align-items: center;
-            }
-        }
+        
     
         .image1 {
             background-color: red;
@@ -276,6 +269,14 @@ nav {
             background-color: purple;
             grid-column: 3 / 4;
             grid-row: 3 / 7;
+        }
+
+        #hero-image h2 {
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
