@@ -615,3 +615,11 @@ nav {
     width: 50%;
 
 }
+
+.wpcf7-form init {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}

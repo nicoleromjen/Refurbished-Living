@@ -502,4 +502,12 @@ nav .categories-subheader .categories-list .dropdown-item {
 .wpcf7-f6-o1 {
   margin: 0 auto;
   width: 50%;
+}
+
+.wpcf7-form init {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
