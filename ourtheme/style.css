@@ -500,7 +500,6 @@ nav .categories-subheader .categories-list .dropdown-item {
   }
 }
 .wpcf7 {
-  display: flex;
-  justify-content: center;
-  place-items: center;
+  margin: 0 auto;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
