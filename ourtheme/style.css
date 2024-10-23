@@ -502,5 +502,5 @@ nav .categories-subheader .categories-list .dropdown-item {
 .wpcf7 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  place-items: center;
 }/*# sourceMappingURL=style.css.map */
